@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="content-wrap">
+  <div class="container clearfix">
+    <div class="single-post nobottommargin">
+      <div class="entry clearfix">
+        <div class="entry-title">
+          <h2>{{ page.title }}</h2>
+        </div>
+        <ul class="entry-meta clearfix">
+          <li><a href="{{ page.fuente['url'] }}"><i class="icon-user"></i>{{ page.fuente['texto'] }}</a></li>
+        </ul>
+        <div class="entry-content notopmargin">
+          <div class="entry-image alignleft">
+            <a href="#"><img src="{{ page.imagenes[0] | prepend: "/images/ederpesca/recetas/" }}" alt="{{ page.title }}"></a>
+          </div>
+          {{ content }}
+          <div class="style-msg2" style="background-color: #EEE;">
+            <div class="msgtitle">Ingredientes ({{ page.comensales }} personas):</div>
+              <div class="sb-msg">
+                <ul>
+                  {% for ingrediente in page.ingredientes %}
+                    <li>{{ ingrediente }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+          {% include social-share.html %}
+          {% include productos-en-receta.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

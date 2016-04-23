@@ -1,0 +1,48 @@
+<div class="col_full nobottommargin">
+  <h3>Productos utilizados</h3>
+  {% for producto in page.productos %}
+    {% assign p=site.productos | where:"lang",page.lang | where:"shopify-handle",producto | first %}
+    <div id="{{ p.shopify-handle }}" class="feature-box center media-box fbox-bg col_one_third">
+
+      <div class="fbox-media">
+        <img src="{{ p.miniatura | prepend: '/images/ederpesca/productos/'  }}" alt="{{ p.title  }}">
+      </div>
+
+      <div class="fbox-desc">
+        <h3><a href="{{ p.url }}">{{ p.title  }}</a><span class="subtitle">{{ p.resumen  }}</span></h3>
+        <div class="product-price"></div>
+        <div data-embed_type="product"
+             data-shop="{{ site.shopify.domain }}.myshopify.com"
+             data-product_name="{{ p.title }}"
+             data-product_handle="{{ p.shopify-handle }}"
+             data-has_image="false"
+             data-display_size="compact"
+             data-redirect_to="cart"
+             data-buy_button_text="{{ site.data.textos[page.lang]['comprar'] | upcase }}"
+             data-buy_button_out_of_stock_text="Out of Stock"
+             data-buy_button_product_unavailable_text="Unavailable"
+             data-button_background_color="007abd"
+             data-button_text_color="ffffff"
+             data-product_modal="false"
+             data-product_title_color="000000"
+             data-next_page_button_text="Next page"
+             style="width: 12em; min-width: 6em;"></div>
+        <script type="text/javascript">
+          document.getElementById('ShopifyEmbedScript') || document.write('<script type="text/javascript" src="https://widgets.shopifyapps.com/assets/widgets/embed/client.js" id="ShopifyEmbedScript"><\/script>');
+        </script>
+        <script>
+          shopClient.fetchProduct({{ p.shopify-id }}).then(function (pr) {
+              var precio = pr.selectedVariant.price + "€";
+              var precio_anterior = pr.selectedVariant.compareAtPrice;
+              if (precio_anterior) {
+                precio += " <del>" + precio_anterior + "€</del>";
+              }
+              $('#{{ producto.shopify-handle }} .product-price').html(precio);
+          }).catch(function () {
+          console.log('Request failed');
+          });
+        </script>
+      </div>
+    </div>
+  {% endfor %}
+</div>

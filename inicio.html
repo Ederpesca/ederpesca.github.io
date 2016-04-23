@@ -1,11 +1,11 @@
 ---
 layout: default
 ref: index
-lang: en
+lang: es
 ---
 
 <div class="content-wrap">
-
+  
   <div class="container clearfix">
     <div class="heading-block nobottomborder center">
       {% assign my_title = site.title[page.lang] | split: ':' %}
@@ -13,8 +13,6 @@ lang: en
       <span>{{ site.subtitle[page.lang] }}</span>
     </div>
 
-    <!-- SLIDER
-         ======================================================= -->
     <div class="fslider bottommargin" data-animaton="fade">
       <div class="flexslider">
         <div class="slider-wrap">
@@ -26,9 +24,9 @@ lang: en
     </div>
 
 
-    <div class="promo promo-border bottommargin">
+    <div class="promo promo-border bottommargin"<div class="promo promo-border bottommargin">
       <h3 class="t400">{{ site.data.textos[page.lang]['promo1'] }} <span class="t700">{{ site.phone }}</span> {{ site.data.textos[page.lang]['promo2'] }} <span class="t700">{{ site.email }}</span></h3>
-      <a href="/shop/" class="button button-xlarge button-rounded">{{ site.data.textos[page.lang]['promo3'] | upcase}}</a>
+      <a href="/tienda/" class="button button-xlarge button-rounded">{{ site.data.textos[page.lang]['promo3'] | upcase}}</a>
     </div>
   </div>
 
@@ -40,7 +38,7 @@ lang: en
           <span>{{ site.data.textos[page.lang]['mayorista2'] }}</span>
         </div>
         <p>{{ site.data.textos[page.lang]['mayorista3'] }}</p>
-        <a href="/products/" class="button button-3d button-large">{{ site.data.textos[page.lang]['mayorista4'] }}</a>
+        <a href="/productos/" class="button button-3d button-large">{{ site.data.textos[page.lang]['mayorista4'] }}</a>
       </div>
     </div>
   </div>

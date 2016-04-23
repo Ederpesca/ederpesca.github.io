@@ -1,0 +1,77 @@
+# Site settings
+title:
+  es: "Ederpesca: Lo mejor del mar en su cocina"
+  eu: "Ederpesca: Lo mejor del mar en su cocina"
+  en: "Ederpesca: Lo mejor del mar en su cocina"
+  fr: "Ederpesca: Lo mejor del mar en su cocina"
+subtitle:
+  es: Nos encargamos de acercaros a vuestras mesas el mejor bacalao ES.
+  eu: Nos encargamos de acercaros a vuestras mesas el mejor bacalao EU.
+  en: Nos encargamos de acercaros a vuestras mesas el mejor bacalao.
+  fr: Nos encargamos de acercaros a vuestras mesas el mejor bacalao FR.
+
+dir: Polígono Manteo Txirrita 5F
+cp: 20100
+city: Errenteria
+email: info@example.com
+phone: 943 00 00 00
+fax: 943 00 00 01
+
+description:
+  es: > # this means to ignore newlines until "baseurl:"
+    Write an awesome description for your new site here. You can edit this
+    line in _config.yml. It will appear in your document head meta (for
+    Google search results) and in your feed.xml site description.
+  eu: > # this means to ignore newlines until "baseurl:"
+    Write an awesome description for your new site here. You can edit this
+    line in _config.yml. It will appear in your document head meta (for
+    Google search results) and in your feed.xml site description.
+  en: > # this means to ignore newlines until "baseurl:"
+    Write an awesome description for your new site here. You can edit this
+    line in _config.yml. It will appear in your document head meta (for
+    Google search results) and in your feed.xml site description.
+  fr: > # this means to ignore newlines until "baseurl:"
+    Write an awesome description for your new site here. You can edit this
+    line in _config.yml. It will appear in your document head meta (for
+    Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ederpesca.com" # the base hostname & protocol for your site
+
+index:
+  en:
+  es: inicio
+  eu: hasiera
+  fr: accueil
+
+facebook_username: Ederpesca-Y-Derivados-SL-953588594689790
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Colecciones
+collections:
+  slider:
+  lineas:
+  productos:
+    output: true
+    permalink: /:collection/:path/
+  recetas:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: productos
+    values:
+      layout: producto
+  - scope:
+      path: ""
+      type: recetas
+    values:
+      layout: receta
+
+shopify:
+  domain: eder-pesca
+  api-key: a91793d49f704556650ff83fcbede715

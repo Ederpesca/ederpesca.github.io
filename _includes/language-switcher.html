@@ -1,0 +1,37 @@
+<ul>
+  <li><a href="#">{{ page.lang | upcase }}</a>
+    <ul>
+      {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+      {% for translation in posts %}
+        {% if post.lang == translation.lang or page.ref == nil %}
+        {% else %}
+          <li><a href="{{ translation.url }}"><img src="/images/icons/flags/{{ translation.lang }}.png" alt="{{ translation.lang | upcase }}">{{ translation.lang  }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+      {% for translation in pages %}
+        {% if page.lang == translation.lang or page.ref == nil %}
+        {% else %}
+          <li><a href="{{ translation.url }}"><img src="/images/icons/flags/{{ translation.lang }}.png" alt="{{ translation.lang | upcase }}">{{ translation.lang  }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% assign productos=site.productos | where:"shopify-id", page.shopify-id | sort: 'lang' %}
+      {% for producto in productos %}
+        {% if page.lang == producto.lang %}
+        {% else %}
+          <li><a href="{{ producto.url }}"><img src="/images/icons/flags/{{ producto.lang }}.png" alt="{{ producto.lang | upcase }}">{{ producto.lang  }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% assign recetas=site.recetas | where:"ref", page.ref | sort: 'lang' %}
+      {% for receta in recetas %}
+        {% if page.lang == receta.lang %}
+        {% else %}
+          <li><a href="{{ receta.url }}"><img src="/images/icons/flags/{{ receta.lang }}.png" alt="{{ receta.lang | upcase }}">{{ receta.lang  }}</a>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </li>
+</ul>

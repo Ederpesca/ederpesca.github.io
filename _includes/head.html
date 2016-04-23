@@ -1,0 +1,52 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title[page.lang] | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% for post in posts %}
+    <link rel="alternate" hreflang="{{ post.lang  }}" href="{{ post.url  }}" />
+  {% endfor %}
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %}
+    <link rel="alternate" hreflang="{{ page.lang  }}" href="{{ page.url  }}" />
+  {% endfor %}
+
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+
+  <!--[if lt IE 9]>
+  <script src="http://css3-mediaqueries-js.googlecode.canonicalom/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+
+
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic"
+  rel="stylesheet" type="text/css" />
+
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+  <!-- External JavaScripts
+       ============================================= -->
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/plugins.js"></script>
+  <script type="text/javascript" src="/js/jquery.sharrre.js"></script>
+
+  <!-- Shopify
+       ============================================= -->
+  <script src="http://sdks.shopifycdn.com/js-buy-sdk/latest/shopify-buy.polyfilled.globals.min.js"></script>
+  <script>
+    var shopClient = ShopifyBuy.buildClient({
+      apiKey: '{{ site.shopify['api-key'] }}',
+      myShopifyDomain: '{{ site.shopify['domain'] }}',
+      appId: '6'
+    });
+  </script>
+  <div data-sticky="true" data-embed_type="cart" data-shop="eder-pesca.myshopify.com" data-button_background_color="007abd"></div>
+  <script type="text/javascript">document.getElementById('ShopifyEmbedScript') || document.write('<script type="text/javascript" src="https://widgets.shopifyapps.com/assets/widgets/embed/client.js" id="ShopifyEmbedScript"><\/script>');</script>
+</head>

@@ -1,0 +1,45 @@
+<div class="col_one_third {% cycle 'group1': '','',' col_last' %}">
+  <div id="{{ producto.shopify-handle }}" class="feature-box center media-box fbox-bg">
+    <div class="fbox-media">
+      <img src="{{ producto.miniatura | prepend: '/images/ederpesca/productos/'  }}" alt="{{ producto.title  }}">
+    </div>
+    <div class="fbox-desc">
+      <h3><a href="{{ producto.url }}">{{ producto.title  }}</a><span class="subtitle">{{ producto.resumen  }}</span></h3>
+      <div class="product-price"></div>
+
+      <div data-embed_type="product"
+           data-shop="{{ site.shopify.domain }}.myshopify.com"
+           data-product_name="{{ producto.title }}"
+           data-product_handle="{{ producto.shopify-handle }}"
+           data-has_image="false"
+           data-display_size="compact"
+           data-redirect_to="cart"
+           data-buy_button_text="{{ site.data.textos[page.lang]['comprar'] }}"
+           data-buy_button_out_of_stock_text="Out of Stock"
+           data-buy_button_product_unavailable_text="Unavailable"
+           data-button_background_color="007abd"
+           data-button_text_color="ffffff"
+           data-product_modal="false"
+           data-product_title_color="000000"
+           data-next_page_button_text="Next page"
+           style="width: 6em; min-width: 6em;"></div>
+      <script type="text/javascript">
+        document.getElementById('ShopifyEmbedScript') || document.write('<script type="text/javascript" src="https://widgets.shopifyapps.com/assets/widgets/embed/client.js" id="ShopifyEmbedScript"><\/script>');
+      </script>
+
+      <script>
+        shopClient.fetchProduct({{ producto.shopify-id }}).then(function (p) {
+            var precio = p.selectedVariant.price + "€";
+            var precio_anterior = p.selectedVariant.compareAtPrice;
+            if (precio_anterior) {
+              precio += " <del>" + precio_anterior + "€</del>";
+            }
+            $('#{{ producto.shopify-handle }} .product-price').html(precio);
+        }).catch(function () {
+          console.log('Request failed');
+        });
+      </script>
+
+    </div>
+  </div>
+</div>

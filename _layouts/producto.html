@@ -1,0 +1,98 @@
+---
+layout: default
+---
+<div class="content-wrap">
+  <div class="container clearfix">
+
+    <div class="single-product">
+      <div class="product">
+
+        <div class="col_two_fifth nobottommargin">
+          <!-- Product Single - Gallery
+          ================================================= -->
+          <div class="product-image">
+            <div class="fslider" data-pagi="false" data-arrows="false" data-thums="true">
+              <div class="flexslider">
+                <div class="slider-wrap" data-ligthbox="gallery">
+                  {% for imagen in page.imagenes %}
+                  <div class="slide" data-thumb="{{ imagen | prepend: "/images/ederpesca/productos/" }}">
+                    <a href="{{ imagen | prepend: "/images/ederpesca/productos/" }}" title="{{ page.title }}" data-ligthbox="{{ imagen | prepend: "/images/ederpesca/productos/" }}">
+                      <img src="{{ imagen | prepend: "/images/ederpesca/productos/" }}" alt="{{ page.title }}" />
+                    </a>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div><!-- Product Single - Gallery End -->
+        </div>
+
+        <div class="col_two_fifth product-desc nobottommargin">
+          <!-- Product Single - Price
+          ====================================================== -->
+          <div class="product-price">
+            <p class="nonottommargin">{{ page.title | upcase }}</p>
+            <p id="product-price"class="nonottommargin"></p>
+          </div>
+          <div class="clear"></div>
+          <div class="line"></div>
+
+          <div data-embed_type="product"
+              data-shop="{{ site.shopify.domain }}.myshopify.com"
+              data-product_name="{{ page.title }}"
+              data-product_handle="{{ page.shopify-handle }}"
+              data-has_image="false"
+              data-display_size="compact"
+              data-redirect_to="cart"
+              data-buy_button_text="{{ site.data.textos[page.lang]['añadir-al-carrito'] | upcase }}"
+              data-buy_button_out_of_stock_text="Out of Stock"
+              data-buy_button_product_unavailable_text="Unavailable"
+              data-button_background_color="007abd"
+              data-button_text_color="ffffff"
+              data-product_modal="false"
+              data-product_title_color="000000"
+              data-next_page_button_text="Next page"
+              style="width: 12em; min-width: 6em;"></div>
+          <div class="clear"></div>
+          <div class="line"></div>
+
+          <p>{{ page.texto }}</p>
+          <ul class="iconlist">
+            {% for caracteristica in page.caracteristicas %}
+            <li><i class="icon-caret-right"></i> {{ caracteristica }}
+            {% endfor %}
+          </ul>
+
+          <!-- Product Single - Share
+          ============================================= -->
+          {% include social-share.html %}
+          <!-- Product Single - Share End -->
+
+        </div>
+
+         {% include condiciones.html %}
+         <div class="clear"></div>
+         {% include condiciones2.html %}
+
+      </div>
+    </div>
+
+      <script type="text/javascript">
+        document.getElementById('ShopifyEmbedScript') || document.write('<script type="text/javascript" src="https://widgets.shopifyapps.com/assets/widgets/embed/client.js" id="ShopifyEmbedScript"><\/script>');
+      </script>
+
+      <script>
+        shopClient.fetchProduct({{ page.shopify-id }}).then(function (p) {
+            var precio = p.selectedVariant.price + "€";
+            var precio_anterior = p.selectedVariant.compareAtPrice;
+            if (precio_anterior) {
+              precio += " <del>" + precio_anterior + "€</del>";
+            }
+            $('#product-price').html(precio);
+        }).catch(function () {
+          console.log('Request failed');
+        });
+      </script>
+
+  </div>
+</div>

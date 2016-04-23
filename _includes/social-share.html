@@ -1,0 +1,26 @@
+<div id="sharrre"></div>
+<script type="text/javascript">
+  $('#sharrre').sharrre({
+    share: {
+      facebook: true,
+      twitter: true,
+      pinterest: true,
+    },
+    template:'<span>Compartir esta página:</span><div><a href="#" class="social-icon si-borderless si-facebook"><i class="icon-facebook"></i><i class="icon-facebook"></i></a><a href="#" class="social-icon si-borderless si-twitter"><i class="icon-twitter"></i><i class="icon-twitter"></i></a><a href="#" class="social-icon si-borderless si-pinterest"><i class="icon-pinterest"></i><i class="icon-pinterest"></i></a></div>',
+    enableHover: false,
+    enableTracking: false,
+    url: document.location.href,
+    render: function(api, options) {
+      $(api.element).on('click', '.si-facebook', function() {
+        api.openPopup('facebook');
+      });
+      $(api.element).on('click', '.si-twitter', function() {
+        api.openPopup('twitter');
+      });
+      $(api.element).on('click', '.si-pinterest', function() {
+        api.openPopup('pinterest');
+      });
+    }
+  });
+  $('#sharrre').addClass("si-share noborder clearfix");
+</script>

@@ -1,0 +1,6 @@
+<div class="slide">
+  <a href="#">
+    <img src="{{ slide.imagen | prepend: "/images/ederpesca/slider/" }}" alt="{{ slide.texto[page.lang] }}">
+  </a>
+  <div class="flex-caption slider-caption-bg{% cycle 'group1': '',' slider-caption-bottom-right' %}">{{ slide.texto[page.lang] }}</div>
+</div>

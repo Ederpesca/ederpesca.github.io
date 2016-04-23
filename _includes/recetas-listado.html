@@ -1,0 +1,19 @@
+<div class="entry clearfix">
+  <div class="entry-image">
+    <a href="{{ receta.miniatura | prepend: "/images/ederpesca/recetas/" }}" data-lightbox="image">
+      <img src="{{ receta.miniatura | prepend: "/images/ederpesca/recetas/" }}" alt="{{ receta.title }}" />
+    </a>
+  </div>
+
+  <div class="entry-title">
+    <h2><a href="{{ receta.url }}">{{ receta.title }}</a></h2>
+  </div>
+
+  <ul class="entry-meta clearfix">
+    <li><a href="{{ receta.fuente['url'] }}"><i class="icon-calendar3"></i> {{ receta.fuente['texto'] }}</a></li>
+  </ul>
+  <div class="entry-content">
+    <p>{{ receta.resumen }}</p>
+    <a href="{{ receta.url }}" class="more-link">{{ site.data.textos[page.lang]['seguir-leyendo'] }}</a>
+  </div>
+</div>

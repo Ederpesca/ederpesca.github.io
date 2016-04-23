@@ -1,0 +1,91 @@
+en:
+  inicio:
+    name: "Home"
+    url: "/"
+  empresa:
+    name: "Company"
+    url: "/company/"
+  productos:
+    name: "Products"
+    url: "/products/"
+  tienda:
+    name: "Shop"
+    url: "/shop/"
+  nutricion:
+    name: "Nutrition"
+    url: "/"
+  recetas:
+    name: "Recipes"
+    url: "/recipes/"
+  contacto:
+    name: "Contact"
+    url: "/"
+
+es:
+  inicio:
+    name: "Inicio"
+    url: "/inicio/"
+  empresa:
+    name: "Empresa"
+    url: "/empresa/"
+  productos:
+    name: "Productos"
+    url: "/productos/"
+  tienda:
+    name: "Tienda"
+    url: "/tienda/"
+  nutricion:
+    name: "Nutrición"
+    url: "/"
+  recetas:
+    name: "Recetas"
+    url: "/recetas/"
+  contacto:
+    name: "Contacto"
+    url: "/"
+
+eu:
+  inicio:
+    name: "Hasiera"
+    url: "/hasiera"
+  empresa:
+    name: "Enpresa"
+    url: "/enpresa/"
+  productos:
+    name: "Productos"
+    url: "/"
+  tienda:
+    name: "Denda"
+    url: "/denda/"
+  nutricion:
+    name: "Nutrizioa"
+    url: "/"
+  recetas:
+    name: "Recetas"
+    url: "/"
+  contacto:
+    name: "Contacto"
+    url: "/"
+
+fr:
+  inicio:
+    name: "Accueil"
+    url: "/accueil"
+  empresa:
+    name: "Enterprise"
+    url: "/enterprise/"
+  productos:
+    name: "Products"
+    url: "/"
+  tienda:
+    name: "Boutique"
+    url: "/boutique/"
+  nutricion:
+    name: "Nutricion"
+    url: "/"
+  recetas:
+    name: "Recetas"
+    url: "/"
+  contacto:
+    name: "Contact"
+    url: "/"

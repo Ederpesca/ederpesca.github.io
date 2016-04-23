@@ -1,0 +1,35 @@
+<div class="col_full topmargin nobottommargin">
+
+  <div class="tabs clearfix nobottommargin" id="tab-1">
+    <ul class="tab-nav clearfix notopmargin">
+      <li><a href="#tabs-1"><i class="icon-align-justify2"></i><span class="hidden-xs"> Envío</span></a></li>
+      <li><a href="#tabs-2"><i class="icon-info-sign"></i><span class="hidden-xs"> Consejos de consumo</span></a></li>
+      <li><a href="#tabs-3"><i class="icon-star3"></i><span class="hidden-xs"> Recetas</span></a></li>
+    </ul>
+    <div class="tab-container">
+      <div class="tab-content clearfix" id="tabs-1">
+        <p>Se utilizan exclusivamente vehículos frigoríficos con lo que aseguramos el mantenimiento de la cadena de frío desde la fábrica hasta su hogar. El plazo de entrega será de 48/72 horas dependiendo de las distintas zonas. (Sólo península).</p>
+      </div>
+      <div class="tab-content clearfix" id="tabs-2">
+        <p>El producto que se vaya a consumir antes de la fecha de caducidad que figura en la etiqueta, mantenerlo en el frigorífico y sacarlo cuando se vaya a cocinar. Una vez abierta la bandeja dejarla airear durante 5 minutos. El producto que vayamos a utilizar en un plazo mas largo se debe congelar en la misma bandeja.</p>
+      </div>
+      <div class="tab-content clearfix" id="tabs-3">
+        <div id="reviews" class="clearfix">
+          <ol class="commentlist clearfix">
+            {% assign recetas = site.recetas | where:"lang",page.lang %}
+            {% for receta in recetas %}
+              {% assign productos = receta.productos | join: "," %}
+              {% if productos contains page.shopify-handle %}
+                <div class="comment-content clearfix">
+                  <div class="comment-author bottommargin-xs">{{ receta.title }}<span></span></div>
+                </div>
+               <div class="clear"></div>
+              {% endif %}
+            {% endfor %}
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

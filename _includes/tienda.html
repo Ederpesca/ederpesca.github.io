@@ -1,0 +1,29 @@
+<div class="container clearfix">
+  <ul class="header-extras bottommargin">
+    <li>
+      <i class="i-medium i-circled i-bordered icon-thumbs-up2 nomargin"></i>
+      <div class="he-text">Envasado perfecto <span>Garantía 100%</span></div>
+    </li>
+    <li>
+      <i class="i-medium i-circled i-bordered icon-credit-cards nomargin"></i>
+      <div class="he-text">Opciones de pago <span>Visa y Paypal</span></div>
+    </li>
+    <li>
+      <i class="i-medium i-circled i-bordereded icon-truck2 nomargin"></i>
+      <div class="he-text">Portes gratuitos <span>A partir de 5 kg</span></div>
+    </li>
+    <li>
+      <i class="i-medium i-circled i-bordered icon-undo nomarginrgin"></i>
+      <div class="he-text">Envíos rápidos <span>Máximo 48h</span></div>
+    </li>
+  </ul>
+</div>
+
+
+<div class="container clearfix">
+  {% assign productos = site.productos | where: "lang", page.lang | sort: "orden" %}
+  {% for producto in productos %}
+    {% include producto-listado.html %}
+    {% cycle 'group2': '','','<div class="clearfix"></div>' %}
+  {% endfor %}
+</div>
