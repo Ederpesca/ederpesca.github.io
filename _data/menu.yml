@@ -1,30 +1,30 @@
 en:
   inicio:
     name: "Home"
-    url: "/"
+    url: "/en/"
   empresa:
     name: "Company"
-    url: "/company/"
+    url: "/en/company/"
   productos:
     name: "Products"
-    url: "/products/"
+    url: "/en/products/"
   tienda:
     name: "Shop"
-    url: "/shop/"
+    url: "/en/shop/"
   nutricion:
     name: "Nutrition"
-    url: "/"
+    url: "/en/"
   recetas:
     name: "Recipes"
-    url: "/recipes/"
+    url: "/en/recipes/"
   contacto:
     name: "Contact"
-    url: "/"
+    url: "/en/"
 
 es:
   inicio:
     name: "Inicio"
-    url: "/inicio/"
+    url: "/"
   empresa:
     name: "Empresa"
     url: "/empresa/"
@@ -47,45 +47,68 @@ es:
 eu:
   inicio:
     name: "Hasiera"
-    url: "/hasiera"
+    url: "/eu/"
   empresa:
     name: "Enpresa"
-    url: "/enpresa/"
+    url: "/eu/enpresa/"
   productos:
     name: "Productos"
-    url: "/"
+    url: "/eu/"
   tienda:
     name: "Denda"
-    url: "/denda/"
+    url: "/eu/denda/"
   nutricion:
     name: "Nutrizioa"
-    url: "/"
+    url: "/eu/"
   recetas:
     name: "Recetas"
-    url: "/"
+    url: "/eu/"
   contacto:
     name: "Contacto"
-    url: "/"
+    url: "/eu/"
 
 fr:
   inicio:
     name: "Accueil"
-    url: "/accueil"
+    url: "/fr/"
   empresa:
     name: "Enterprise"
-    url: "/enterprise/"
+    url: "/fr/enterprise/"
   productos:
     name: "Products"
-    url: "/"
+    url: "/fr/"
   tienda:
     name: "Boutique"
-    url: "/boutique/"
+    url: "/fr/boutique/"
   nutricion:
     name: "Nutricion"
-    url: "/"
+    url: "/fr/"
   recetas:
     name: "Recetas"
-    url: "/"
+    url: "/fr/"
   contacto:
     name: "Contact"
-    url: "/"
+    url: "/fr/"
+it:
+  inicio:
+    name: "Home"
+    url: "/it/"
+  empresa:
+    name: "Empresa"
+    url: "/it/"
+  productos:
+    name: "Products"
+    url: "/it/"
+  tienda:
+    name: "Tienda"
+    url: "/it/"
+  nutricion:
+    name: "Nutricion"
+    url: "/it/"
+  recetas:
+    name: "Recetas"
+    url: "/it/"
+  contacto:
+    name: "Contact"
+    url: "/it/"
+

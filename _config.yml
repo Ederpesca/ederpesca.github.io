@@ -4,11 +4,13 @@ title:
   eu: "Ederpesca: Lo mejor del mar en su cocina"
   en: "Ederpesca: Lo mejor del mar en su cocina"
   fr: "Ederpesca: Lo mejor del mar en su cocina"
+  it: "Ederpesca: Lo mejor del mar en su cocina"
 subtitle:
   es: Nos encargamos de acercaros a vuestras mesas el mejor bacalao ES.
   eu: Nos encargamos de acercaros a vuestras mesas el mejor bacalao EU.
   en: Nos encargamos de acercaros a vuestras mesas el mejor bacalao.
   fr: Nos encargamos de acercaros a vuestras mesas el mejor bacalao FR.
+  it: Nos encargamos de acercaros a vuestras mesas el mejor bacalao FR.
 
 dir: Polígono Manteo Txirrita 5F
 cp: 20100
@@ -34,14 +36,19 @@ description:
     Write an awesome description for your new site here. You can edit this
     line in _config.yml. It will appear in your document head meta (for
     Google search results) and in your feed.xml site description.
+  it: > # this means to ignore newlines until "baseurl:"
+    Write an awesome description for your new site here. You can edit this
+    line in _config.yml. It will appear in your document head meta (for
+    Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ederpesca.com" # the base hostname & protocol for your site
 
 index:
-  en:
-  es: inicio
-  eu: hasiera
-  fr: accueil
+  en: en/
+  es: 
+  eu: eu/
+  fr: fr/
+  it: it/
 
 facebook_username: Ederpesca-Y-Derivados-SL-953588594689790
 
