@@ -1,7 +1,6 @@
 ---
 title: Company
 layout: page_raw
-permalink: /company/
 ref: empresa
 lang: en
 ---
