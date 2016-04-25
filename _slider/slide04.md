@@ -5,4 +5,5 @@ texto:
   eu: Tradición e innovación
   en: Tradición e innovación
   fr: Tradición e innovación
+  it: Tradición e innovación
 ---

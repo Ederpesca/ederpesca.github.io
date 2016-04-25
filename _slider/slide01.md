@@ -5,4 +5,5 @@ texto:
   eu: Producto sano y de calidad
   en: Health & Quality Product
   fr: Producto sano y de calidad
+  it: Producto sano y de calidad
 ---

@@ -60,6 +60,7 @@ permalink: pretty
 collections:
   slider:
   lineas:
+  procesos:
   productos:
     output: true
     permalink: /:collection/:path/

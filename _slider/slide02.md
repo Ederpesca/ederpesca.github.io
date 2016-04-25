@@ -5,4 +5,5 @@ texto:
   eu: Listo para cocinar
   en: Listo para cocinar
   fr: Listo para cocinar
+  it: Listo para cocinar
 ---

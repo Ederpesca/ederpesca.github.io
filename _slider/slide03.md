@@ -5,4 +5,5 @@ texto:
   eu: Rico en proteinas
   en: Rico en proteinas
   fr: Rico en proteinas
+  it: Rico en proteinas
 ---
