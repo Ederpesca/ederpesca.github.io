@@ -1,14 +1,14 @@
 ---
 nombre:
-  es: Ederpesca
-  eu: Ederpesca
-  en: Ederpesca
-  fr: Ederpesca
+  es: Ederpesca Gourmet
+  eu: Ederpesca Gourmet
+  en: Ederpesca Gourmet
+  fr: Ederpesca Gourmet
 subtitle:
-  es: "Desalado extra"
-  eu: "Desalado extra"
-  en: "Desalado extra"
-  fr: "Desalado extra"
+  es: "Pirmera línea desalado"
+  eu: "Pirmera línea desalado"
+  en: "Pirmera línea desalado"
+  fr: "Pirmera línea desalado"
 texto:
   es: "Línea de bacalao desalado para los clientes más exclusivos que busquen los productos más selectos y perfectos del mercado."
   eu: "Línea de bacalao desalado para los clientes más exclusivos que busquen los productos más selectos y perfectos del mercado."
