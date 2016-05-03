@@ -76,9 +76,11 @@
     <div class="container clearfix">
       <div class="col_full nobottommargin center">
         <div class="copyrights-menu copyright-links clearfix">
-          <a href="#">Inicio</a>/<a href="#">Empresa</a>/<a href="#">Productos</a>/<a href="#">Tienda on line</a>/<a href="#">Nutrición</a>/<a href="#">Recetas</a>/<a href="#">Contacto</a>
+          {% for item in site.data.menu[page.lang] %}
+          <a href="{{ item[1].url }}">{{ item[1].name }}</a>{% unless forloop.last == true %}/{% endunless %}
+          {% endfor %}
         </div>
-        Copyrights &copy; 2014 All Rights Reserved by Ederpesca y Derivados S.L.
+        Copyrights &copy; 2016 All Rights Reserved by Ederpesca y Derivados S.L.
       </div>
     </div>
 
