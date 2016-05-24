@@ -31,6 +31,6 @@ lang: es
   <div class="fancy-title title-border">
     <h3>{{ paso.orden }}- {{ paso.title }}</h3>
   </div>
-  <p><img src="{{ paso.imagen | prepend: "/images/ederpesca/procesos/"}}" alt="{{ paso.title }}" class="{% cycle "group3": "alignleft","alignright" %} notopmargin" data-animate="{% cycle "group4": "rotateInDownRight","rotateInDownLeft" %}">{{ paso.content | strip_html }}</p>
+  <p><img src="{{ paso.imagen | prepend: "/images/ederpesca/procesos/"}}" alt="{{ paso.title }}" class="{% cycle "group3": "alignleft","alignright" %} notopmargin" data-animate="{% cycle "group4": "rotateInDownRight","rotateInDownLeft" %}" style="display:none">{{ paso.content | strip_html }}</p>
 </div>
 {% endfor %}
