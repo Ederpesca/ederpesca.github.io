@@ -68,8 +68,13 @@
 :placeholder-shown { color: white; }
 
 .oculto {
-	visibility:hidden;}
-	
+  visibility:hidden;
+}
+
+.feature-box.fbox-center h3::after {
+  border-top: none !important;
+}
+
 .fbox-media {
 	border: solid 6px #999;
 }

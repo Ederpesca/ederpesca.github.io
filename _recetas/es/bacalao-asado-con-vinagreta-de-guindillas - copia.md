@@ -5,7 +5,7 @@ imagenes:
   - bacalaoasadoconvinagretadeguindillasgrande.jpg
 fuente:
   url: http://www.hogarmania.com/cocina/recetas/pescados-mariscos/201211/bacalao-asado-vinagreta-guindillas-17361.html
-  texto: www.hogarmania.com
+  texto: "Receta de Bruno Oteiza en www.hogarmania.com"
 resumen: "Receta de Bruno Oteiza de bacalao asado en el horno con patatas y melocotón acompañado de vinagreta de guindillas."
 comensales: 2
 ingredientes:
