@@ -76,16 +76,18 @@ defaults:
     values:
       layout: producto
       hide_content: true
-      nombre:
-      resumen:
-      miniatura_path:
+      nombre: "Nombre del producto"
+      resumen: "Breve introducción al producto"
+      miniatura_path: /images/ederpesca/productos/default.jpg
       imagenes:
-      texto:
+      texto: "Texto completo del producto"
       caracteristicas:
+        - "Característica 1"
       lang: es
       orden: 1
-      shopify-id:
-      shopify-handle:
+      shopify-id: 0
+      shopify-handle: "Shopify hande: nombre-del.producto"
+      publicado: false
   - scope:
       path: ""
       type: recetas
