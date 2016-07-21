@@ -74,9 +74,9 @@ defaults:
       path: ""
       type: productos
     values:
+      title: ""
       layout: producto
       hide_content: true
-      title: ""
       resumen: ""
       miniatura_path:
       imagenes:
