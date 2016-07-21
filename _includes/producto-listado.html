@@ -1,15 +1,15 @@
 <div class="col_one_third {% cycle 'group1': '','',' col_last' %}">
   <div id="{{ producto.shopify-handle }}" class="feature-box center media-box fbox-bg">
     <div class="fbox-media">
-      <img src="{{ producto.miniatura_path }}" alt="{{ producto.nombre  }}">
+      <img src="{{ producto.miniatura_path }}" alt="{{ producto.title  }}">
     </div>
     <div class="fbox-desc">
-      <h3><a href="{{ producto.url }}">{{ producto.nombre  }}</a><span class="subtitle">{{ producto.resumen  }}</span></h3>
+      <h3><a href="{{ producto.url }}">{{ producto.title  }}</a><span class="subtitle">{{ producto.resumen  }}</span></h3>
       <div class="product-price"></div>
 
       <div data-embed_type="product"
            data-shop="{{ site.shopify.domain }}.myshopify.com"
-           data-product_name="{{ producto.nombre }}"
+           data-product_name="{{ producto.title }}"
            data-product_handle="{{ producto.shopify-handle }}"
            data-has_image="false"
            data-display_size="compact"

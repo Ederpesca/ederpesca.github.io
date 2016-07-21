@@ -5,15 +5,15 @@
     <div id="{{ p.shopify-handle }}" class="feature-box center media-box fbox-bg col_one_third">
 
       <div class="fbox-media">
-        <img src="{{ p.miniatura_path }}" alt="{{ p.nombre  }}">
+        <img src="{{ p.miniatura_path }}" alt="{{ p.title  }}">
       </div>
 
       <div class="fbox-desc">
-        <h3><a href="{{ p.url }}">{{ p.nombre  }}</a><span class="subtitle">{{ p.resumen  }}</span></h3>
+        <h3><a href="{{ p.url }}">{{ p.title  }}</a><span class="subtitle">{{ p.resumen  }}</span></h3>
         <div class="product-price"></div>
         <div data-embed_type="product"
              data-shop="{{ site.shopify.domain }}.myshopify.com"
-             data-product_name="{{ p.nombre }}"
+             data-product_name="{{ p.title }}"
              data-product_handle="{{ p.shopify-handle }}"
              data-has_image="false"
              data-display_size="compact"

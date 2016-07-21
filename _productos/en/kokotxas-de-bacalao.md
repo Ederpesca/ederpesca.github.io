@@ -1,5 +1,5 @@
 ---
-nombre: "Kokotxas de bacalao"
+title: "Kokotxas de bacalao"
 resumen: "La parte más codiciada del bacalao. Alto contenido en gelatina. Envasado:bandeja de 1 kg aprox."
 miniatura_path: /images/ederpesca/productos/kokotxasdebacalao.jpg
 lang: en

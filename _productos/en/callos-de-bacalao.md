@@ -1,5 +1,5 @@
 ---
-nombre: "Callos de bacalao"
+title: "Callos de bacalao"
 resumen: "Producto muy codiciado con alto contenido en gelatina. Envasado: bandeja de 1 kg aprox."
 miniatura_path: /images/ederpesca/productos/callosdebacalao.jpg
 lang: en

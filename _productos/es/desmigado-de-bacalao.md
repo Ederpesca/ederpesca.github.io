@@ -1,5 +1,5 @@
 ---
-nombre: "Desmigado de bacalao"
+title: "Desmigado de bacalao"
 resumen: "Ideal para brandadas, revueltos, ensaladas, pintxos...Envasado: bandeja de 1 kg aprox."
 miniatura_path: /images/ederpesca/productos/desmigadodebacalao.jpg
 lang: es
