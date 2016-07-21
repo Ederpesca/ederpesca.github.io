@@ -1,7 +1,7 @@
 ---
 shopify-id: 6170250823
 shopify-handle: solomillo-central
-miniatura: solomillocentral.jpg
+miniatura_path: /images/ederpesca/productos/solomillocentral.jpg
 imagenes:
   - solomillocentralindividual.jpg
 title: Solomillo central
