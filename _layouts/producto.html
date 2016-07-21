@@ -16,8 +16,8 @@ layout: default
                 <div class="slider-wrap" data-ligthbox="gallery">
                   {% for imagen in page.imagenes %}
                   <div class="slide" data-thumb="{{ imagen | prepend: "/images/ederpesca/productos/" }}">
-                    <a href="{{ imagen | prepend: "/images/ederpesca/productos/" }}" title="{{ page.title }}" data-ligthbox="{{ imagen | prepend: "/images/ederpesca/productos/" }}">
-                      <img src="{{ imagen | prepend: "/images/ederpesca/productos/" }}" alt="{{ page.title }}" />
+                    <a href="{{ imagen | prepend: "/images/ederpesca/productos/" }}" title="{{ page.nombre }}" data-ligthbox="{{ imagen | prepend: "/images/ederpesca/productos/" }}">
+                      <img src="{{ imagen | prepend: "/images/ederpesca/productos/" }}" alt="{{ page.nombre }}" />
                     </a>
                   </div>
                   {% endfor %}
@@ -31,7 +31,7 @@ layout: default
           <!-- Product Single - Price
           ====================================================== -->
           <div class="product-price">
-            <p class="nonottommargin">{{ page.title | upcase }}</p>
+            <p class="nonottommargin">{{ page.nombre | upcase }}</p>
             <p id="product-price"class="nonottommargin"></p>
           </div>
           <div class="clear"></div>
@@ -39,7 +39,7 @@ layout: default
 
           <div data-embed_type="product"
               data-shop="{{ site.shopify.domain }}.myshopify.com"
-              data-product_name="{{ page.title }}"
+              data-product_name="{{ page.nombre }}"
               data-product_handle="{{ page.shopify-handle }}"
               data-has_image="false"
               data-display_size="compact"
