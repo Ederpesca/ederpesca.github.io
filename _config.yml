@@ -80,6 +80,11 @@ defaults:
       type: recetas
     values:
       layout: receta
+  - scope:
+      path: ""
+      type: slider
+    values:
+      hide_content: true
 
 shopify:
   domain: eder-pesca
