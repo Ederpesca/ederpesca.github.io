@@ -1,5 +1,5 @@
 ---
-imagen: 02.jpg
+imagen_path: /images/ederpesca/slider/02.jpg
 texto:
   es: Listo para cocinar
   eu: Listo para cocinar
