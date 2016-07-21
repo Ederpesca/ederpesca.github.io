@@ -5,6 +5,7 @@ miniatura_path: /images/ederpesca/productos/solomillocentral.jpg
 imagenes:
   - solomillocentralindividual.jpg
 title: "Solomillo central EN"
+nombre: "Solomillo central EN"
 resumen: "La parte más gruesa del bacalao. Especial para laminar. Peso pieza 500 gr. 2 piezas por bandeja."
 texto: "Es la parte más gruesa del bacalao, especial para laminar. Sin espina. Normalmente se divide por la mitad para obtener una ración."
 caracteristicas:
