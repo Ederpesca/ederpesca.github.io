@@ -76,7 +76,7 @@ defaults:
     values:
       layout: producto
       hide_content: true
-      nombre: "Nombre del producto"
+      title: "Nombre del producto"
       resumen: "Breve introducción al producto"
       miniatura_path: /images/ederpesca/productos/default.jpg
       imagenes:
