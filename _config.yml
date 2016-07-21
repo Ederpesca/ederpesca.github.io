@@ -75,6 +75,7 @@ defaults:
       type: productos
     values:
       layout: producto
+      hide_content: true
   - scope:
       path: ""
       type: recetas
