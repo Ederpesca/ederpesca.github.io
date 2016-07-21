@@ -1,5 +1,5 @@
 ---
-imagen: 03.jpg
+imagen_path: /images/ederpesca/slider/03.jpg
 texto:
   es: Rico en proteinas
   eu: Rico en proteinas
