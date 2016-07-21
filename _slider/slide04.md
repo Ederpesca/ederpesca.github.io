@@ -1,5 +1,5 @@
 ---
-imagen: 04.jpg
+imagen_path: /images/ederpesca/slider/04.jpg
 texto:
   es: Tradición e innovación
   eu: Tradición e innovación
