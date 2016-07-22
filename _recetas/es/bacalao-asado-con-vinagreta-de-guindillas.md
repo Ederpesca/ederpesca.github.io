@@ -19,6 +19,7 @@ ingredientes:
   - cebollino picado
 productos_usados:
  - solomillo-central
+productos:
 ref: bacalao-asado-con-vinagreta-de-guindillas
 lang: es
 ---
