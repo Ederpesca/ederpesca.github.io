@@ -1,8 +1,6 @@
 ---
 title: "Bacalao asado con vinagreta de guindillas"
-miniatura: bacalaoasadoconvinagretadeguindillas.jpg
-imagenes:
-  - bacalaoasadoconvinagretadeguindillasgrande.jpg
+image_path: /images/ederpesca/recetas/bacalaoasadoconvinagretadeguindillasgrande.jpg
 fuente:
   url: http://www.hogarmania.com/cocina/recetas/pescados-mariscos/201211/bacalao-asado-vinagreta-guindillas-17361.html
   texto: "Receta de Bruno Oteiza en www.hogarmania.com"
