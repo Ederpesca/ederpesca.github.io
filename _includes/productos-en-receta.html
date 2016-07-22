@@ -1,6 +1,6 @@
 <div class="col_full nobottommargin">
   <h3>Productos utilizados</h3>
-  {% for producto in page.productos %}
+  {% for producto in page.productos_usados %}
     {% assign p=site.productos | where:"lang",page.lang | where:"shopify-handle",producto | first %}
     <div id="{{ p.shopify-handle }}" class="feature-box center media-box fbox-bg col_one_third">
 
