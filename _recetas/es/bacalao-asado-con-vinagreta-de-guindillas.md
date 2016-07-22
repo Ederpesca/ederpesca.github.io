@@ -19,9 +19,6 @@ ingredientes:
   - cebollino picado
 productos_usados:
   - solomillo-central
-productos:
-  - en/callos-de-bacalao
-  - es/callos-de-bacalao
 ref: bacalao-asado-con-vinagreta-de-guindillas
 lang: es
 ---
