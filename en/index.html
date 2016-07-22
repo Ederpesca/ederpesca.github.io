@@ -8,7 +8,7 @@ lang: en
 
   <div class="container clearfix">
     <div class="heading-block nobottomborder center">
-      {% assign my_title = site.title[page.lang] | split: ':' %}
+      {% assign my_title = site.maintitle[page.lang] | split: ':' %}
       <h1><span>{{ my_title[0] }}</span>:{{ my_title[1] }}</h1>
       <span>{{ site.subtitle[page.lang] }}</span>
     </div>
