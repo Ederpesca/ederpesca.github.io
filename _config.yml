@@ -44,6 +44,10 @@ description:
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ederpesca.com" # the base hostname & protocol for your site
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
 index:
   en: en/
   es: 
