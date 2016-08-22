@@ -17,9 +17,9 @@ ingredientes:
   - sal
   - pimienta
   - cebollino picado
-productos:_usados
+productos_usados:
  - solomillo-central
-ref: bacalao-asado-con-vinagreta-de-guindillas
+ref: kokotxas-de-bacalao
 lang: es
 ---
 
