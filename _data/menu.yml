@@ -36,7 +36,7 @@ es:
     url: "/tienda/"
   nutricion:
     name: "Nutrición"
-    url: "/"
+    url: "/nutricion"
   recetas:
     name: "Recetas"
     url: "/recetas/"
@@ -89,6 +89,7 @@ fr:
   contacto:
     name: "Contact"
     url: "/fr/"
+
 it:
   inicio:
     name: "Home"
@@ -111,4 +112,3 @@ it:
   contacto:
     name: "Contact"
     url: "/it/"
-

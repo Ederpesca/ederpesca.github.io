@@ -1,0 +1,15 @@
+---
+title: Nutrición
+layout: page_raw
+ref: nutricion
+lang: es
+---
+
+<div id="posts" class="post-grid">
+
+  {% assign articulos = site.nutricion | where: "lang", page.lang %}
+  {% for articulo in articulos %}
+    {% include nutricion-listado.html %}
+  {% endfor %}
+
+</div>

@@ -92,3 +92,8 @@
 .topmargin-xs { margin-top: 12px !important; }
 
 .bottommargin-xs { margin-bottom: 12px !important; }
+
+#posts {
+	display: flex;
+  flex-wrap: wrap;
+}

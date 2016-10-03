@@ -16,7 +16,7 @@ dir: Polígono Manteo Txirrita 5F
 cp: 20100
 city: Errenteria
 provincia: Gipuzkoa
-email: ederpesca@ederpesca.com 
+email: ederpesca@ederpesca.com
 phone: 943 52 52 27
 fax: 943 00 00 01
 
@@ -53,7 +53,7 @@ exclude:
 
 index:
   en: en/
-  es: 
+  es:
   eu: eu/
   fr: fr/
   it: it/
@@ -73,6 +73,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   recetas:
+    output: true
+    permalink: /:collection/:path/
+  nutricion:
     output: true
     permalink: /:collection/:path/
 
@@ -99,6 +102,12 @@ defaults:
       type: recetas
     values:
       layout: receta
+  - scope:
+      path: ""
+      type: nutricion
+    values:
+      layout: nutricion
+
   - scope:
       path: ""
       type: slider
