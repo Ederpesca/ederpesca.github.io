@@ -1,5 +1,5 @@
 ---
-title: Los beneficios que te estás perdiendo si no incluyes bacalao en tu dieta
+title: "Los beneficios que te estás perdiendo si no incluyes bacalao en tu dieta"
 date: 2015-10-29
 image_path: /images/ederpesca/nutricion/beneficios-bacalao-dieta.jpg
 fuente:

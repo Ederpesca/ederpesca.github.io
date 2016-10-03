@@ -1,5 +1,5 @@
 ---
-title: Valor nutricional y beneficios del bacalao
+title: "Valor nutricional y beneficios del bacalao"
 image_path: /images/ederpesca/nutricion/valor-nutricional-beneficios-bacalao.jpg
 date: 2016-06-13
 fuente:

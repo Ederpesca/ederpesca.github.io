@@ -8,7 +8,7 @@ lang: es
 <div id="posts" class="post-grid">
 
   {% assign articulos = site.nutricion | where: "lang", page.lang %}
-  {% for articulo in articulos %}
+  {% for articulo in articulos reversed %}
     {% include nutricion-listado.html %}
   {% endfor %}
 
