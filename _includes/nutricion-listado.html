@@ -10,7 +10,8 @@
   </div>
 
   <ul class="entry-meta clearfix">
-    <li><a href="{{ articulo.fuente['url'] }}"><i class="icon-calendar3"></i> {{ articulo.fuente['texto'] }}</a></li>
+    <li><i class="icon-calendar3"></i> {{ articulo.date | date_to_string }}</li>
+    <li><a href="{{ articulo.fuente['url'] }}"><i class="icon-user"></i> {{ articulo.fuente['texto'] }}</a></li>
   </ul>
   <div class="entry-content">
     <p>{{ articulo.resumen }}</p>

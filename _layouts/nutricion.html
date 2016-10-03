@@ -10,6 +10,7 @@ layout: default
           <h2>{{ page.title }}</h2>
         </div>
         <ul class="entry-meta clearfix">
+          <li><i class="icon-calendar3"></i> {{ page.date | date_to_string }}</li>
           <li><a href="{{ page.fuente['url'] }}"><i class="icon-user"></i>{{ page.fuente['texto'] }}</a></li>
         </ul>
         <div class="entry-content notopmargin">
