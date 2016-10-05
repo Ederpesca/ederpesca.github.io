@@ -20,14 +20,14 @@ gulp.task('jekyll-build', function (done) {
 
 /**
  * Rebuild Jekyll & do page reload
- */ 
+ */
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
 /**
  * Wait for jekyll-build, then launch the Server
- */ 
+ */
 gulp.task('browser-sync', ['jekyll-build'], function() {
     browserSync({
         server: {
@@ -39,12 +39,18 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
 /**
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
- */ 
+ */
 gulp.task('watch', function () {
     gulp.watch(['*.html',
                 '_layouts/*.html',
                 '_includes/*.html',
                 '_posts/*',
+                '_recetas/**/*',
+                '_nutricion/**/*',
+                '_procesos/**/*',
+                '_productos/**/*',
+                '_lineas/**/*',
+                '_slider/**/*',
                 '_config.yml',
                 '_images/*',
                 '_sass/*.scss',
@@ -71,5 +77,5 @@ gulp.task('deploy', ['jekyll-build-prod'], shell.task([
 /**
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
- */ 
+ */
 gulp.task('default', ['browser-sync', 'watch']);
