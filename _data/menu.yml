@@ -8,9 +8,9 @@ en:
   productos:
     name: "Products"
     url: "/en/products/"
-  tienda:
-    name: "Shop"
-    url: "/en/shop/"
+#  tienda:
+#    name: "Shop"
+#    url: "/en/shop/"
   nutricion:
     name: "Nutrition"
     url: "/en/"
@@ -31,9 +31,9 @@ es:
   productos:
     name: "Productos"
     url: "/productos/"
-  tienda:
-    name: "Tienda"
-    url: "/tienda/"
+  #tienda:
+  #  name: "Tienda"
+  #  url: "/tienda/"
   nutricion:
     name: "Nutrición"
     url: "/nutricion"
@@ -54,9 +54,9 @@ eu:
   productos:
     name: "Productos"
     url: "/eu/"
-  tienda:
-    name: "Denda"
-    url: "/eu/denda/"
+#  tienda:
+#    name: "Denda"
+#    url: "/eu/denda/"
   nutricion:
     name: "Nutrizioa"
     url: "/eu/"
@@ -77,9 +77,9 @@ fr:
   productos:
     name: "Products"
     url: "/fr/"
-  tienda:
-    name: "Boutique"
-    url: "/fr/boutique/"
+#  tienda:
+#    name: "Boutique"
+#    url: "/fr/boutique/"
   nutricion:
     name: "Nutricion"
     url: "/fr/"
@@ -100,9 +100,9 @@ it:
   productos:
     name: "Products"
     url: "/it/"
-  tienda:
-    name: "Tienda"
-    url: "/it/"
+#  tienda:
+#    name: "Negozio"
+#    url: "/it/negozio/"
   nutricion:
     name: "Nutricion"
     url: "/it/"
