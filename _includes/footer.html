@@ -63,7 +63,7 @@
           <a href="{{ item[1].url }}">{{ item[1].name }}</a>{% unless forloop.last == true %}/{% endunless %}
           {% endfor %}
         </div>
-        Copyrights &copy; 2016 All Rights Reserved by Ederpesca y Derivados S.L.
+        Copyrights &copy; {{ site.time | date: "%Y" }} All Rights Reserved by Ederpesca y Derivados S.L.
       </div>
     </div>
 
