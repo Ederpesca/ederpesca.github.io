@@ -1,0 +1,65 @@
+<div class="widget quick-contact-widget clearfix">
+  <h4>Envianos un Email</h4>
+
+  <form enctype="multipart/form-data" action="https://paneles.gestiondecuenta.com/comprobar-formulario/" method="POST" id ="formGenGdc" onsubmit="return ValidarCaptcha();">
+
+      <div class="form-process"></div>
+
+
+        <div class="input-group divcenter">
+          <span class="input-group-addon"><i class="icon-user"></i></span>
+          <input type="text" id="nombre" name="nombre" value="" class="form-control required  input-block-level" />
+        </div>
+
+
+        <div class="input-group divcenter">
+          <span class="input-group-addon"><i class="icon-email2"></i></span>
+          <input type="email" id="email" name="email" value="" class="required email form-control input-block-level" />
+        </div>
+
+      <div class="hidden">
+        <label for="template-contactform-subject">Asunto <small>*</small></label>
+        <input type="text" id="asunto" name="asunto" value="Info" class="required form-control input-block-level" />
+      </div>
+
+      <div class="clear"></div>
+
+      <textarea class="required form-control input-block-level short-text-area" id="mensaje" name="mensaje" rows="6" cols="30"></textarea>
+
+     <div class="bottommargin"
+        <input type="hidden" value="" id="verificacionOculto" name="verificacionOculto"/>
+        <div id="muestraVerificacion"></div>
+        <input type="text" id="entradaVerificacion" name="entradaVerificacion" />
+      </div>
+
+      <input type="hidden" name="redirigir" class="" value="http://www.ederpesca.com/gracias.html" />
+      <input type="hidden" name="recipe" class="" value="ederpesca@ederpesca.com" />
+      <input type="hidden" name="asunto" class="" value="Envío formulario desde ederpesca.com" />
+      <input type="hidden" name="required" class="" value="nombre;email;asunto" />
+      <input type="hidden" name="dominio" class="" value="ederpesca.com" />
+      <input type="hidden" name="idioma" class="" value="es" />
+
+        <button class="btn btn-danger nomargin" type="submit" id="enviar" name="enviar" value="Enviar">Enviar mensaje</button>
+
+    </form>
+
+    <script type="text/javascript">
+    var a = Math.ceil(Math.random() * 10);
+    var b = Math.ceil(Math.random() * 10);
+    var c = a + b;
+    function GenerarCaptcha(){
+    var hidden = document.getElementById("verificacionOculto");
+    var inputField = document.getElementById("entradaVerificacion");
+    var muestra = document.getElementById("muestraVerificacion");
+    muestra.innerHTML = a + " + " + b + " = ";
+    hidden.value = c ;
+    }
+    function ValidarCaptcha(){
+    var inputField = document.getElementById("entradaVerificacion");
+    if (inputField.value == c) return true;
+    else{inputField.style.color="red"; return false;}
+    }
+    GenerarCaptcha();
+    </script>
+
+</div>
