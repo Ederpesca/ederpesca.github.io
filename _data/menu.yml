@@ -42,7 +42,7 @@ es:
     url: "/recetas/"
   contacto:
     name: "Contacto"
-    url: "/"
+    url: "/contacto/"
 
 eu:
   inicio:
