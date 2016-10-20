@@ -4,22 +4,45 @@ ref: index
 lang: fr
 ---
 
-<div class="home">
+<div class="content-wrap">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="container clearfix">
+    <div class="heading-block nobottomborder center">
+      {% assign my_title = site.maintitle[page.lang] | split: ':' %}
+      <h1><span>{{ my_title[0] }}</span>:{{ my_title[1] }}</h1>
+      <span>{{ site.subtitle[page.lang] }}</span>
+    </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <!-- SLIDER
+         ======================================================= -->
+    <div class="fslider bottommargin" data-animaton="fade">
+      <div class="flexslider">
+        <div class="slider-wrap">
+          {% for slide in site.slider %}
+            {% include slide.html %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div class="promo promo-border bottommargin" style="padding-right: 0">
+      <h3 class="t400">{{ site.data.textos[page.lang]['promo1'] }} <span class="t700">{{ site.phone }}</span> {{ site.data.textos[page.lang]['promo2'] }} <span class="t700">{{ site.email }}</span></h3>
+      <!--<a href="/shop/" class="button button-xlarge button-rounded">{{ site.data.textos[page.lang]['promo3'] | upcase}}</a>-->
+    </div>
+  </div>
+
+  <div class="section notopborder nomargin">
+    <div class="container clearfix">
+      <div class="nobottommargin center">
+        <div class="heading-block topmargin-sm">
+          <h2>{{ site.data.textos[page.lang]['mayorista1'] }}</h2>
+          <span>{{ site.data.textos[page.lang]['mayorista2'] }}</span>
+        </div>
+        <p>{{ site.data.textos[page.lang]['mayorista3'] }}</p>
+        <a href="/products/" class="button button-3d button-large">{{ site.data.textos[page.lang]['mayorista4'] }}</a>
+      </div>
+    </div>
+  </div>
 
 </div>

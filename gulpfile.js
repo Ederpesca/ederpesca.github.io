@@ -42,6 +42,10 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
  */
 gulp.task('watch', function () {
     gulp.watch(['*.html',
+                'eu/*.html',
+                'en/*.html',
+                'fr/*.html',
+                'it/*.html',
                 '_layouts/*.html',
                 '_includes/*.html',
                 '_posts/*',
