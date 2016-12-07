@@ -64,8 +64,8 @@ eu:
     name: "Errezeta"
     url: "/eu/errezeta/"
   contacto:
-    name: "Contacto"
-    url: "/eu/"
+    name: "Kontaktua"
+    url: "/eu/kontaktua/"
 
 fr:
   inicio:
