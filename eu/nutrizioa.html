@@ -1,0 +1,15 @@
+---
+title: Nutrizioa
+layout: page_raw
+ref: nutricion
+lang: es
+---
+
+<div id="posts">
+
+  {% assign articulos = site.nutricion | where: "lang", page.lang %}
+  {% for articulo in articulos reversed %}
+    {% include nutricion-listado.html %}
+  {% endfor %}
+
+</div>

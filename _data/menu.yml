@@ -59,7 +59,7 @@ eu:
 #    url: "/eu/denda/"
   nutricion:
     name: "Nutrizioa"
-    url: "/eu/"
+    url: "/eu/nutrizioa/"
   recetas:
     name: "Recetas"
     url: "/eu/"
