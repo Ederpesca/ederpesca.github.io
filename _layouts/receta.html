@@ -2,27 +2,29 @@
 layout: default
 ---
 
+<meta property="og:site_name" content="ederpesca.com" />
 <div class="content-wrap">
   <div class="container clearfix">
     <div class="single-post nobottommargin">
-      <div class="entry clearfix">
+      <div class="entry clearfix" itemscope itemtype="http://schema.org/Recipe">
         <div class="entry-title">
-          <h2>{{ page.title }}</h2>
+          <h2 itemprop="name">{{ page.title }}</h2>
+          <meta itemprop="url" content="{{ page.url }}" />
         </div>
         <ul class="entry-meta clearfix">
           <li><a href="{{ page.fuente['url'] }}"><i class="icon-user"></i>{{ page.fuente['texto'] }}</a></li>
         </ul>
         <div class="entry-content notopmargin">
           <div class="entry-image alignleft">
-            <a href="#"><img src="{{ page.image_path }}" alt="{{ page.title }}"></a>
+            <a href="#"><img src="{{ page.image_path }}" alt="{{ page.title }}" itemprop="image"></a>
           </div>
           {{ content }}
           <div class="style-msg2" style="background-color: #EEE;">
-            <div class="msgtitle">Ingredientes ({{ page.comensales }} personas):</div>
+            <div class="msgtitle" itemprop="recipeYield">Ingredientes ({{ page.comensales }} personas):</div>
               <div class="sb-msg">
                 <ul>
                   {% for ingrediente in page.ingredientes %}
-                    <li>{{ ingrediente }}</li>
+                    <li itemprop="ingredients">{{ ingrediente }}</li>
                   {% endfor %}
                 </ul>
               </div>
