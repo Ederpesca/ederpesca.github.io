@@ -52,8 +52,8 @@ eu:
     name: "Enpresa"
     url: "/eu/enpresa/"
   productos:
-    name: "Productos"
-    url: "/eu/"
+    name: "Produktuak"
+    url: "/eu/produktuak/"
 #  tienda:
 #    name: "Denda"
 #    url: "/eu/denda/"
