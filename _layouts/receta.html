@@ -16,9 +16,11 @@ layout: default
         </ul>
         <div class="entry-content notopmargin">
           <div class="entry-image alignleft">
-            <a href="#"><img src="{{ page.image_path }}" alt="{{ page.title }}" itemprop="image"></a>
+            <a href="#"><img src="{{ page.image_path | absolute_url }}" alt="{{ page.title }}" itemprop="image"></a>
           </div>
-          {{ content }}
+          <div itemprop="recipeInstructions">
+            {{ content }}
+          </div>
           <div class="style-msg2" style="background-color: #EEE;">
             <div class="msgtitle" itemprop="recipeYield">Ingredientes ({{ page.comensales }} personas):</div>
               <div class="sb-msg">
