@@ -9,7 +9,7 @@ layout: default
       <div class="entry clearfix" itemscope itemtype="http://schema.org/Recipe">
         <div class="entry-title">
           <h2 itemprop="name">{{ page.title }}</h2>
-          <meta itemprop="url" content="{{ page.url }}" />
+          <meta itemprop="url" content="{{ page.url | absolute_url }}" />
         </div>
         <ul class="entry-meta clearfix">
           <li><a href="{{ page.fuente['url'] }}"><i class="icon-user"></i>{{ page.fuente['texto'] }}</a></li>
