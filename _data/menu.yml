@@ -61,8 +61,8 @@ eu:
     name: "Nutrizioa"
     url: "/eu/nutrizioa/"
   recetas:
-    name: "Recetas"
-    url: "/eu/"
+    name: "Errezeta"
+    url: "/eu/errezeta/"
   contacto:
     name: "Contacto"
     url: "/eu/"
