@@ -1,8 +1,8 @@
-var cp          = require('child_process')
+var cp = require('child_process')
 var browserSync = require('browser-sync')
-var gulp        = require('gulp')
-var gutil       = require('gulp-util')
-var shell       = require('gulp-shell')
+var gulp = require('gulp')
+var gutil = require('gulp-util')
+var shell = require('gulp-shell')
 
 var siteRoot = '_site'
 

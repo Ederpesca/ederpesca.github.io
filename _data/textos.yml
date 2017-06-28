@@ -1,8 +1,8 @@
 en:
-  promo1: ¿Necesitas ayuda? Lámanos al
+  promo1: Llámanos al
   promo2: o envíanos un email a
   promo3: On Line Shop
-  mayorista1: ¿Eres mayorista?
+  mayorista1: ¿Eres distribuidor?
   mayorista2: "Prueba Ederpesca: La mejor calidad combinada con el mejor servicio."
   mayorista3: >
    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -15,13 +15,16 @@ en:
   comprar: Buy
   añadir-al-carrito: Add to Cart
   seguir-leyendo: Read more
-  footer-subtitle: "Empresa dedicada a la venta mayorista y minirista de bacalao y otros productos del mar."
+  footer-subtitle: "Empresa dedicada a la venta mayorista y minorista de bacalao y otros productos del mar."
+  form-ph-nombre: "Su nombre"
+  form-ph-email: "Su email"
+  form-ph-mensaje: "Mensaje"
 
 es:
-  promo1: ¿Necesitas ayuda? Lámanos al
+  promo1: Llámanos al
   promo2: o envíanos un email a
   promo3: Tienda on line
-  mayorista1: ¿Eres mayorista?
+  mayorista1: ¿Eres distribuidor?
   mayorista2: "Prueba Ederpesca: La mejor calidad combinada con el mejor servicio."
   mayorista3: >
    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -34,13 +37,16 @@ es:
   comprar: Comprar
   añadir-al-carrito: Añadir al carrito
   seguir-leyendo: Seguir leyendo
-  footer-subtitle: "Empresa dedicada a la venta mayorista y minirista de bacalao y otros productos del mar."
+  footer-subtitle: "Empresa dedicada a la venta mayorista y minorista de bacalao y otros productos del mar."
+  form-ph-nombre: "Su nombre"
+  form-ph-email: "Su email"
+  form-ph-mensaje: "Mensaje"
 
 eu:
-  promo1: ¿Necesitas ayuda? Lámanos al
+  promo1: Llámanos al
   promo2: o envíanos un email a
   promo3: Tienda on line
-  mayorista1: ¿Eres mayorista?
+  mayorista1: ¿Eres distribuidor?
   mayorista2: "Prueba Ederpesca: La mejor calidad combinada con el mejor servicio."
   mayorista3: >
    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -53,13 +59,16 @@ eu:
   comprar: Erosi
   añadir-al-carrito: Añadir al carrito
   seguir-leyendo: Read more
-  footer-subtitle: "Empresa dedicada a la venta mayorista y minirista de bacalao y otros productos del mar."
+  footer-subtitle: "Empresa dedicada a la venta mayorista y minorista de bacalao y otros productos del mar."
+  form-ph-nombre: "Su nombre"
+  form-ph-email: "Su email"
+  form-ph-mensaje: "Mensaje"
 
 fr:
-  promo1: ¿Necesitas ayuda? Lámanos al
+  promo1: Llámanos al
   promo2: o envíanos un email a
   promo3: Tienda on line
-  mayorista1: ¿Eres mayorista?
+  mayorista1: ¿Eres distribuidor?
   mayorista2: "Prueba Ederpesca: La mejor calidad combinada con el mejor servicio."
   mayorista3: >
    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -72,13 +81,16 @@ fr:
   comprar: Acheter
   añadir-al-carrito: Añadir al carrito
   seguir-leyendo: Read more
-  footer-subtitle: "Empresa dedicada a la venta mayorista y minirista de bacalao y otros productos del mar."
+  footer-subtitle: "Empresa dedicada a la venta mayorista y minorista de bacalao y otros productos del mar."
+  form-ph-nombre: "Su nombre"
+  form-ph-email: "Su email"
+  form-ph-mensaje: "Mensaje"
 
 it:
-  promo1: ¿Necesitas ayuda? Lámanos al
+  promo1: Llámanos al
   promo2: o envíanos un email a
   promo3: On Line Shop
-  mayorista1: ¿Eres mayorista?
+  mayorista1: ¿Eres distribuidor?
   mayorista2: "Prueba Ederpesca: La mejor calidad combinada con el mejor servicio."
   mayorista3: >
    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -91,4 +103,7 @@ it:
   comprar: Buy
   añadir-al-carrito: Add to Cart
   seguir-leyendo: Read more
-  footer-subtitle: "Empresa dedicada a la venta mayorista y minirista de bacalao y otros productos del mar."
+  footer-subtitle: "Empresa dedicada a la venta mayorista y minorista de bacalao y otros productos del mar."
+  form-ph-nombre: "Su nombre"
+  form-ph-email: "Su email"
+  form-ph-mensaje: "Mensaje"

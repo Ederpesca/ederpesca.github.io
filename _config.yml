@@ -6,19 +6,18 @@ maintitle:
   fr: "Ederpesca: Lo mejor del mar en su cocina"
   it: "Ederpesca: Lo mejor del mar en su cocina"
 subtitle:
-  es: Nos encargamos de acercaros a vuestras mesas el mejor bacalao ES.
+  es: Nos encargamos de acercaros a vuestras mesas el mejor bacalao.
   eu: Nos encargamos de acercaros a vuestras mesas el mejor bacalao EU.
-  en: Nos encargamos de acercaros a vuestras mesas el mejor bacalao.
+  en: Nos encargamos de acercaros a vuestras mesas el mejor bacalao EN.
   fr: Nos encargamos de acercaros a vuestras mesas el mejor bacalao FR.
   it: Nos encargamos de acercaros a vuestras mesas el mejor bacalao IT.
 
-dir: Polígono Manteo Txirrita 5F
+dir: Polígono Txirrita Maleo 5F
 cp: 20100
 city: Errenteria
 provincia: Gipuzkoa
 email: ederpesca@ederpesca.com
 phone: 943 52 52 27
-fax: 943 52 52 27
 
 description:
   es: > # this means to ignore newlines until "baseurl:"

@@ -1,20 +1,20 @@
 <div class="widget quick-contact-widget clearfix">
   <h4>Envianos un Email</h4>
 
-  <form enctype="multipart/form-data" action="https://paneles.gestiondecuenta.com/comprobar-formulario/" method="POST" id ="formGenGdc" onsubmit="return ValidarCaptcha();">
+  <form enctype="multipart/form-data" action="https://paneles.gestiondecuenta.com/comprobar-formulario/" method="POST" id ="formGenGdcBlock" onsubmit="return ValidarCaptcha();">
 
       <div class="form-process"></div>
 
 
         <div class="input-group divcenter">
           <span class="input-group-addon"><i class="icon-user"></i></span>
-          <input type="text" id="nombre" name="nombre" value="" class="form-control required  input-block-level" />
+          <input type="text" id="nombre" name="nombre" value="" class="form-control required  input-block-level" placeholder="{{ site.data.textos[page.lang]['form-ph-nombre'] }}" />
         </div>
 
 
         <div class="input-group divcenter">
           <span class="input-group-addon"><i class="icon-email2"></i></span>
-          <input type="email" id="email" name="email" value="" class="required email form-control input-block-level" />
+          <input type="email" id="email" name="email" value="" class="required email form-control input-block-level" placeholder="{{ site.data.textos[page.lang]['form-ph-email'] }}" />
         </div>
 
       <div class="hidden">
@@ -24,12 +24,12 @@
 
       <div class="clear"></div>
 
-      <textarea class="required form-control input-block-level short-text-area" id="mensaje" name="mensaje" rows="6" cols="30"></textarea>
+      <textarea class="required form-control input-block-level short-text-area" id="mensaje" name="mensaje" rows="6" cols="30" placeholder="{{ site.data.textos[page.lang]['form-ph-mensaje'] }}"></textarea>
 
-     <div class="bottommargin"
-        <input type="hidden" value="" id="verificacionOculto" name="verificacionOculto"/>
-        <div id="muestraVerificacion"></div>
-        <input type="text" id="entradaVerificacion" name="entradaVerificacion" />
+     <div class="bottommargin">
+        <input type="hidden" value="" id="verificacionOcultoBlock" name="verificacionOculto"/>
+        <div id="muestraVerificacionBlock"></div>
+        <input type="text" id="entradaVerificacionBlock" name="entradaVerificacion" />
       </div>
 
       <input type="hidden" name="redirigir" class="" value="http://www.ederpesca.com/gracias.html" />
@@ -48,14 +48,14 @@
     var b = Math.ceil(Math.random() * 10);
     var c = a + b;
     function GenerarCaptcha(){
-    var hidden = document.getElementById("verificacionOculto");
-    var inputField = document.getElementById("entradaVerificacion");
-    var muestra = document.getElementById("muestraVerificacion");
+    var hidden = document.getElementById("verificacionOcultoBlock");
+    var inputField = document.getElementById("entradaVerificacionBlock");
+    var muestra = document.getElementById("muestraVerificacionBlock");
     muestra.innerHTML = a + " + " + b + " = ";
     hidden.value = c ;
     }
     function ValidarCaptcha(){
-    var inputField = document.getElementById("entradaVerificacion");
+    var inputField = document.getElementById("entradaVerificacionBlock");
     if (inputField.value == c) return true;
     else{inputField.style.color="red"; return false;}
     }
