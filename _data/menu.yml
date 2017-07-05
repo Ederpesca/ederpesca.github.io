@@ -31,9 +31,9 @@ es:
   productos:
     name: "Productos"
     url: "/productos/"
-  tienda:
-    name: "Tienda"
-    url: "/tienda/"
+  #tienda:
+  #  name: "Tienda"
+  #  url: "/tienda/"
   nutricion:
     name: "Nutrición"
     url: "/nutricion"
