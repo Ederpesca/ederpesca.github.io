@@ -37,7 +37,7 @@
               if (precio_anterior) {
                 precio += " <del>" + precio_anterior + "€</del>";
               }
-              $('#{{ producto.shopify-handle }} .product-price').html(precio);
+              $('#{{ p.shopify-handle }} .product-price').html(precio);
           }).catch(function () {
           console.log('Request failed');
           });

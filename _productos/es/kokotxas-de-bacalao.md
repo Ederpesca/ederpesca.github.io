@@ -1,9 +1,11 @@
 ---
 title: "Kokotxas de bacalao"
-resumen: La parte más codiciada del bacalao. Alto contenido en gelatina. Envasado:bandeja de 1 kg aprox.
-miniatura_path: /images/ederpesca/productos/kokotxasdebacalao.jpg
+resumen:  "Es la parte más codiciada del bacalao. Se trata de un producto muy gelatinoso, fácil de cocinar."
+miniatura_path: /images/ederpesca/productos/kokotxas.jpg
+imagenes:
+  - kokotxas.jpg
 lang: es
-orden: 3
+orden: 5
 shopify-id: 6202469575
 shopify-handle: kokotxas-de-bacalao
 ---

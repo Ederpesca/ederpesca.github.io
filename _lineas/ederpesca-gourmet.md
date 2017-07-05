@@ -5,7 +5,7 @@ nombre:
   en: Ederpesca Gourmet
   fr: Ederpesca Gourmet
 subtitle:
-  es: "Pirmera línea desalado"
+  es: "Bacalao desalado"
   eu: "Pirmera línea desalado"
   en: "Pirmera línea desalado"
   fr: "Pirmera línea desalado"

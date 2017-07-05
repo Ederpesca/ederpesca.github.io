@@ -1,9 +1,11 @@
 ---
-title: "Desmigado de bacalao"
-resumen: "Ideal para brandadas, revueltos, ensaladas, pintxos...Envasado: bandeja de 1 kg aprox."
-miniatura_path: /images/ederpesca/productos/desmigadodebacalao.jpg
+title: "Desmigado Extra bacalao"
+resumen: " Ideal para hacer brandadas, revueltos, ensaladas, pintxos etc. Sin piel y sin espinas."
+miniatura_path: /images/ederpesca/productos/desmigado-extra-bacalao.jpg
+imagenes:
+  - desmigado-extra-bacalao.jpg
 lang: es
-orden: 2
+orden: 4
 shopify-id: 6201845575
 shopify-handle: desmigado-de-bacalao
 ---

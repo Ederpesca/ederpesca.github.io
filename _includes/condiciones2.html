@@ -15,14 +15,15 @@
       </div>
       <div class="tab-content clearfix" id="tabs-3">
         <div id="reviews" class="clearfix">
-          <ol class="commentlist clearfix">
+          <ul class="iconlist clearfix">
             {% assign recetas = site.recetas | where:"lang",page.lang %}
             {% for receta in recetas %}
-              {% assign productos = receta.productos | join: "," %}
+              {% assign productos = receta.productos_usados | join: "," %}
               {% if productos contains page.shopify-handle %}
-                <div class="comment-content clearfix">
-                  <div class="comment-author bottommargin-xs">{{ receta.title }}<span></span></div>
-                </div>
+                <li>
+                  <i class="icon-ok"></i>
+                  <a href="{{ receta.url }}">{{ receta.title }}</a>
+                </li>
                <div class="clear"></div>
               {% endif %}
             {% endfor %}

@@ -5,7 +5,7 @@ nombre:
   en: Tradipesca
   fr: Tradipesca
 subtitle:
-  es: Salado
+  es: Bacalao salado
   eu: Salado
   en: Salado
   fr: Salado

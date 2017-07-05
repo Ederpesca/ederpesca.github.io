@@ -15,7 +15,8 @@ ingredientes:
   - sal
   - perejil
 productos_usados:
-  - lomo-de-bacalao
+  - lomo-gran-chef
+  - solomillo
 ref: bacalao-vizcaina
 lang: es
 ---

@@ -5,7 +5,7 @@ nombre:
   en: Costapesca
   fr: Costapesca
 subtitle:
-  es: "Congelado punto de sal extra"
+  es: "Bacalao congelado punto de sal extra"
   eu: "Congelado punto de sal extra"
   en: "Congelado punto de sal extra"
   fr: "Congelado punto de sal extra"
