@@ -1,6 +1,6 @@
 ---
 nombre:
-  es: Ederpesca Gourmet
+  es: Ederpesca
   eu: Ederpesca Gourmet
   en: Ederpesca Gourmet
   fr: Ederpesca Gourmet

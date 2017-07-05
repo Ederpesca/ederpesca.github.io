@@ -18,6 +18,7 @@ ingredientes:
   - pimienta
   - cebollino picado
 productos_usados:
+  - solomillo
   - lomo-gran-chef
 ref: bacalao-asado-con-vinagreta-de-guindillas
 lang: es
