@@ -1,5 +1,5 @@
 ---
-imagen_path: /images/ederpesca/slider/01.jpg
+imagen_path: /images/ederpesca/slider/03-slider.jpg
 texto:
   es: Producto sano y de calidad
   eu: Producto sano y de calidad
