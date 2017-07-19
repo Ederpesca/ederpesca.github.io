@@ -4,8 +4,12 @@ resumen: " El lomo central del bacalao. Es una pieza con buen grosor y que viste
 miniatura_path: /images/ederpesca/productos/lomo-gran-chef.jpg
 imagenes:
   - lomo-gran-chef.jpg
-texto: ""
+texto: " Es lomo central del bacalao. Es una parte que viste muy bien el plato, ya que es muy cuadrado."
 caracteristicas:
+  - "Peso pieza: 250 gr."
+  - "Envasado: 4 piezas de 250 gr. por bandeja."
+  - "Presentación: bandeja termosellada 1 kg aprox."
+  - "Calidad: Extra."
 lang: es
 orden: 2
 shopify-id: 11067730762
