@@ -69,8 +69,9 @@
     }
     function ValidarCaptcha(){
     var inputField = document.getElementById("entradaVerificacion");
+    var muestra = document.getElementById("muestraVerificacion");
     if (inputField.value == c) return true;
-    else{inputField.style.color="red"; return false;}
+    else{inputField.style.color="red"; muestra.style.color="red"; return false;}
     }
     GenerarCaptcha();
     </script>
