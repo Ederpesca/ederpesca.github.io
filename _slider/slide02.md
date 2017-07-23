@@ -1,9 +1,9 @@
 ---
-imagen_path: /images/ederpesca/slider/04-slider.jpg
+imagen_path: /images/ederpesca/slider/03-slider.jpg
 texto:
-  es: Listo para cocinar
-  eu: Listo para cocinar
-  en: Listo para cocinar
-  fr: Listo para cocinar
-  it: Listo para cocinar
+  es: Producto sano y de calidad
+  eu: Producto sano y de calidad
+  en: Health & Quality Product
+  fr: Producto sano y de calidad
+  it: Producto sano y de calidad
 ---

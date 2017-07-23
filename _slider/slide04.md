@@ -1,9 +1,9 @@
 ---
-imagen_path: /images/ederpesca/slider/06-slider.jpg
+imagen_path: /images/ederpesca/slider/solomillo.jpg
 texto:
-  es: Tradición e innovación
-  eu: Tradición e innovación
-  en: Tradición e innovación
-  fr: Tradición e innovación
-  it: Tradición e innovación
+  es: Desalado listo para cocinar
+  eu: Listo para cocinar
+  en: Listo para cocinar
+  fr: Listo para cocinar
+  it: Listo para cocinar
 ---

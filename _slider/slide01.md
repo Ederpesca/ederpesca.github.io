@@ -1,7 +1,7 @@
 ---
 imagen_path: /images/ederpesca/slider/03-slider.jpg
 texto:
-  es: Producto sano y de calidad
+  es: Bacalao salvaje de anzuelo
   eu: Producto sano y de calidad
   en: Health & Quality Product
   fr: Producto sano y de calidad
