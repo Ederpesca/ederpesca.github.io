@@ -1,5 +1,5 @@
 ---
-imagen_path: /images/ederpesca/slider/03-slider.jpg
+imagen_path: /images/ederpesca/slider/01-slider.jpg
 texto:
   es: Bacalao salvaje de anzuelo
   eu: Producto sano y de calidad
