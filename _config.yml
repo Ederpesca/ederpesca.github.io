@@ -21,9 +21,8 @@ phone: 943 52 52 27
 
 description:
   es: > # this means to ignore newlines until "baseurl:"
-    Write an awesome description for your new site here. You can edit this
-    line in _config.yml. It will appear in your document head meta (for
-    Google search results) and in your feed.xml site description.
+    Lo mejor del mar en su cocina. Nos encargamos de acercaros a vuestras mesas
+    el mejor bacalao desalado. 
   eu: > # this means to ignore newlines until "baseurl:"
     Write an awesome description for your new site here. You can edit this
     line in _config.yml. It will appear in your document head meta (for
