@@ -1,6 +1,7 @@
 ---
 title: Bacalao al pil-pil
-image_path: /images/ederpesca/recetas/bacalao-pilpil.jpg
+image:
+  path: /images/ederpesca/recetas/bacalao-pilpil.jpg
 fuente:
   url: 'https://www.hogarmania.com/cocina/recetas/pescados-mariscos/201107/bacalao-9398.html'
   texto: Receta de Karlos Arguiñano en www.hogarmania.com

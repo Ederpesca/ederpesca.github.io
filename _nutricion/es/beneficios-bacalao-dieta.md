@@ -1,7 +1,8 @@
 ---
 title: "Los beneficios que te estás perdiendo si no incluyes bacalao en tu dieta"
 date: 2015-10-29
-image_path: /images/ederpesca/nutricion/beneficios-bacalao-dieta.jpg
+image:
+  path: /images/ederpesca/nutricion/beneficios-bacalao-dieta.jpg
 fuente:
   url: "https://www.mercadodesanmiguel.es/blog/mercado-salud/los-beneficios-que-te-estas-perdiendo-si-no-incluyes-el-bacalao-en-tu-dieta/"
   texto: mercadodesanmiguel

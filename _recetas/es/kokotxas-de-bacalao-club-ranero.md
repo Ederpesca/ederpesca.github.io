@@ -1,6 +1,7 @@
 ---
 title: "Kokotxas de bacalao al Club Ranero"
-image_path: /images/ederpesca/recetas/kokotxas-de-bacalao-club-ranero.jpg
+image:
+  path: /images/ederpesca/recetas/kokotxas-de-bacalao-club-ranero.jpg
 fuente:
   url: 'http://www.hogarmania.com/cocina/recetas/pescados-mariscos/201109/kokotxas-bacalao-club-ranero-10988.html'
   texto: Receta de Karlos Argiñano en www.hogarmania.com

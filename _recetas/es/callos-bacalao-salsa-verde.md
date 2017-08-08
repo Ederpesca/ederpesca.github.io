@@ -1,6 +1,7 @@
 ---
 title: "Callos de bacalao en salsa verde"
-image_path: /images/ederpesca/recetas/callos-bacalao-salsa-verde.jpg
+image:
+  path: /images/ederpesca/recetas/callos-bacalao-salsa-verde.jpg
 fuente:
   url: 'http://www.hogarmania.com/cocina/recetas/ensaladas-verduras/201012/guiso-patatas-salsa-verde-tripas-3239.html'
   texto: Receta de Karlos Argiñano en www.hogarmania.com

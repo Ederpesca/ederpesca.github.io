@@ -1,6 +1,7 @@
 ---
 title: "Bacalao a la vizcaina"
-image_path: /images/ederpesca/recetas/bacalao-vizcaina.jpg
+image:
+  path: /images/ederpesca/recetas/bacalao-vizcaina.jpg
 fuente:
   url: 'http://www.hogarmania.com/cocina/recetas/pescados-mariscos/201510/bacalao-vizcaina-30619.html'
   texto: Receta de Karlos Argiñano en www.hogarmania.com

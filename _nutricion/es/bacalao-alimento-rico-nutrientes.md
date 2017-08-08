@@ -1,6 +1,7 @@
 ---
 title: "Bacalao, un alimento rico en nutrientes"
-image_path: /images/ederpesca/nutricion/bacalao-alimento-rico-nutrientes.jpg
+image:
+  path: /images/ederpesca/nutricion/bacalao-alimento-rico-nutrientes.jpg
 date: 2013-01-16
 fuente:
   url: 'http://www.fundaciondelcorazon.com/corazon-facil/blog-impulso-vital/2524-bacalao-fuente-nutrientes-que-escasean-en-muchos-alimentos.html'

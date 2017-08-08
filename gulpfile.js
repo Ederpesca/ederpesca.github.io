@@ -56,6 +56,7 @@ gulp.task('watch', function () {
     '_lineas/**/*',
     '_slider/**/*',
     '_config.yml',
+    '_config_dev.yml',
     '_images/*',
     '_sass/*.scss',
     'css/*.scss'],

@@ -1,4 +1,9 @@
 # Site settings
+title: "Ederpesca y Derivados SL"
+description: >
+  Lo mejor del mar en su cocina. Nos encargamos de acercaros a vuestras mesas
+  el mejor bacalao desalado.
+
 maintitle:
   es: "Ederpesca: Lo mejor del mar en su cocina"
   eu: "Ederpesca: Lo mejor del mar en su cocina"
@@ -19,35 +24,16 @@ provincia: Gipuzkoa
 email: ederpesca@ederpesca.com
 phone: 943 52 52 27
 
-description:
-  es: > # this means to ignore newlines until "baseurl:"
-    Lo mejor del mar en su cocina. Nos encargamos de acercaros a vuestras mesas
-    el mejor bacalao desalado.
-  eu: > # this means to ignore newlines until "baseurl:"
-    Write an awesome description for your new site here. You can edit this
-    line in _config.yml. It will appear in your document head meta (for
-    Google search results) and in your feed.xml site description.
-  en: > # this means to ignore newlines until "baseurl:"
-    Write an awesome description for your new site here. You can edit this
-    line in _config.yml. It will appear in your document head meta (for
-    Google search results) and in your feed.xml site description.
-  fr: > # this means to ignore newlines until "baseurl:"
-    Write an awesome description for your new site here. You can edit this
-    line in _config.yml. It will appear in your document head meta (for
-    Google search results) and in your feed.xml site description.
-  it: > # this means to ignore newlines until "baseurl:"
-    Write an awesome description for your new site here. You can edit this
-    line in _config.yml. It will appear in your document head meta (for
-    Google search results) and in your feed.xml site description.
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ederpesca.com" # the base hostname & protocol for your site
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - package.json
-  - node_modules
-  - gulpfile.js
+facebook:
+  app_id: Ederpesca-Y-Derivados-SL-953588594689790
+
+logo: /images/ederpesca/logo.jpg
+
+google_site_verification: kuuA5fqwf68iuMeu-teDya9Q8ef2eOIPDrsO4L3VQuc
 
 index:
   en: en/
@@ -56,11 +42,15 @@ index:
   fr: fr/
   it: it/
 
-facebook_username: Ederpesca-Y-Derivados-SL-953588594689790
-
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - node_modules
+  - gulpfile.js
 
 # Gems
 gems:
@@ -92,7 +82,10 @@ defaults:
       layout: producto
       hide_content: true
       resumen: ""
-      miniatura_path:
+      seo:
+        type: Product
+      image:
+        path:
       imagenes:
       texto: ""
       caracteristicas:
@@ -106,6 +99,8 @@ defaults:
       type: recetas
     values:
       layout: receta
+      seo:
+        type: Recipe
   - scope:
       path: ""
       type: nutricion

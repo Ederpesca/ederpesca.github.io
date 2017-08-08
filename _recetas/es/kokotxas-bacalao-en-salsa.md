@@ -1,6 +1,7 @@
 ---
 title: "Kokotxas de bacalao en salsa"
-image_path: /images/ederpesca/recetas/kokotxas-bacalao-en-salsa.jpg
+image:
+  path: /images/ederpesca/recetas/kokotxas-bacalao-en-salsa.jpg
 fuente:
   url: 'http://www.hogarmania.com/cocina/recetas/pescados-mariscos/201512/kokotxas-bacalao-salsa-31305.html'
   texto: Receta de Karlos Argiñano en www.hogarmania.com

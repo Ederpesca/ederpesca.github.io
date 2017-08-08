@@ -3,24 +3,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.maintitle[page.lang] | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
-  <meta name="google-site-verification" content="kuuA5fqwf68iuMeu-teDya9Q8ef2eOIPDrsO4L3VQuc" />
+  {% seo %}
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
   {% for post in posts %}
     <link rel="alternate" hreflang="{{ post.lang  }}" href="{{ post.url  }}" />
   {% endfor %}
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% assign pages=site.pages | where:"ref", page.ref | where:"lang", !page.lang | sort: 'lang' %}
   {% for page in pages %}
     <link rel="alternate" hreflang="{{ page.lang  }}" href="{{ page.url  }}" />
   {% endfor %}
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.maintitle[page.lang] }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
   <!--[if lt IE 9]>
   <script src="http://css3-mediaqueries-js.googlecode.canonicalom/svn/trunk/css3-mediaqueries.js"></script>

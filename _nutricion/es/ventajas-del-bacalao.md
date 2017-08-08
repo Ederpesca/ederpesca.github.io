@@ -1,6 +1,7 @@
 ---
 title: "Ventajas del Bacalao"
-image_path: /images/ederpesca/nutricion/ventajas-del-bacalao.jpg
+image:
+  path: /images/ederpesca/nutricion/ventajas-del-bacalao.jpg
 date: 2016-04-13
 fuente:
   url: 'http://www.anfabasa.com/ventajas.html'

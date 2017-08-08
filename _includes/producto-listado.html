@@ -1,7 +1,7 @@
 <div class="col_one_third {% cycle 'group1': '','',' col_last' %}">
   <div id="{{ producto.shopify-handle }}" class="feature-box center media-box fbox-bg">
     <div class="fbox-media">
-      <img src="{{ producto.miniatura_path }}" alt="{{ producto.title  }}">
+      <img src="{{ producto.image.path }}" alt="{{ producto.title  }}">
     </div>
     <div class="fbox-desc">
       <h3><a href="{{ producto.url }}">{{ producto.title  }}</a><span class="subtitle">{{ producto.resumen  }}</span></h3>

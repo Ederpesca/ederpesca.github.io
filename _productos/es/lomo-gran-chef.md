@@ -1,7 +1,8 @@
 ---
 title: "Lomo Gran Chef"
 resumen: " El lomo central del bacalao. Es una pieza con buen grosor y que viste muy bien el plato, ya que es muy cuadrado."
-miniatura_path: /images/ederpesca/productos/lomo-gran-chef.jpg
+image:
+  path: /images/ederpesca/productos/lomo-gran-chef.jpg
 imagenes:
   - lomo-gran-chef.jpg
 texto: " Es lomo central del bacalao. Es una parte que viste muy bien el plato, ya que es muy cuadrado."

@@ -1,6 +1,7 @@
 ---
 title: "Los beneficios de comer pescado para nuestra salud"
-image_path: /images/ederpesca/nutricion/beneficios-comer-pescado.jpg
+image:
+  path: /images/ederpesca/nutricion/beneficios-comer-pescado.jpg
 date: 2012-09-03
 fuente:
   url: "http://www.elika.eus/consumidor/es/preguntas_beneficios_pescado.asp"

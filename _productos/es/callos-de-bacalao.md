@@ -1,7 +1,8 @@
 ---
 title: "Callos de bacalao"
 resumen: "Es la vejiga natatoria del bacalao. Se trata de un producto muy gelatinoso, fácil de cocinar."
-miniatura_path: /images/ederpesca/productos/callos.jpg
+image:
+  path: /images/ederpesca/productos/callos.jpg
 imagenes:
   - callos.jpg
 texto: " Es la vejiga natatoria del bacalao. Se trata de un producto muy gelatinoso, fácil de cocinar."

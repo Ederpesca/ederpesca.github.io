@@ -1,6 +1,7 @@
 ---
 title: "Kokotxas de bacalao al pil-pil con morrones"
-image_path: /images/ederpesca/recetas/kokotxas-bacalao-pil-pil-con-morrones.jpg
+image:
+  path: /images/ederpesca/recetas/kokotxas-bacalao-pil-pil-con-morrones.jpg
 fuente:
   url: 'http://www.hogarmania.com/cocina/recetas/pescados-mariscos/201202/cocochas-bacalao-morrones-14232.html'
   texto: Receta de Karlos Argiñano en www.hogarmania.com

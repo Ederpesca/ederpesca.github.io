@@ -1,6 +1,7 @@
 ---
 title: "Kokotxas de bacalao rebozadas"
-image_path: /images/ederpesca/recetas/kokotxas-bacalao-rebozadas.jpg
+image:
+  path: /images/ederpesca/recetas/kokotxas-bacalao-rebozadas.jpg
 fuente:
   url: 'http://www.hogarmania.com/cocina/recetas/pescados-mariscos/201209/kokotxas-bacalao-rebozadas-15793.html'
   texto: Receta de Karlos Argiñano en www.hogarmania.com
