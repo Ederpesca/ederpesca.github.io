@@ -1,6 +1,7 @@
 ---
 title: "Lomo Pil Pil"
-resumen: "Especial para elaborar al pil-pil. Gracias a su alto contenido en gelatina lo dota especialmente de una gran melosidad."
+resumen: "Especial para elaborar al pil-pil. Gracias a su alto contenido en gelatina lo dota especialmente de una gran melosidad.<br>
+Bandeja de 1 kg con 4 unidades."
 image:
   path: /images/ederpesca/productos/lomo-pil-pil.jpg
 imagenes:

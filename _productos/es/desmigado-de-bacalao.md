@@ -1,6 +1,7 @@
 ---
 title: "Desmigado Extra bacalao"
-resumen: "Ideal para hacer tortillas, brandadas, ensaladas, pintxos etc. Sin piel y sin espinas."
+resumen: "Ideal para hacer tortillas, brandadas, ensaladas, pintxos etc. Sin piel y sin espinas.<br>
+Bandeja de 1 kg."
 image:
   path: /images/ederpesca/productos/desmigado-extra-bacalao.jpg
 imagenes:

@@ -1,6 +1,7 @@
 ---
 title: "Solomillo"
-resumen: "Lomo muy grueso, el solomillo del bacalao. Es la parte  más gruesa del bacalao, especial para laminar. Sin espina."
+resumen: "Lomo muy grueso, el solomillo del bacalao. Es la parte  más gruesa del bacalao, especial para laminar. Sin espina.<br>
+Bandeja de 1 kg con 2 unidades."
 image:
   path: /images/ederpesca/productos/solomillo.jpg
 imagenes:
