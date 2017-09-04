@@ -89,6 +89,11 @@ layout: default
             if (precio_anterior) {
               precio += " <del>" + precio_anterior + "€</del>";
             }
+            if (p.selectedVariant.grams) {
+              var precio_peso = parseFloat((p.selectedVariant.price) / (parseFloat(p.selectedVariant.grams) / 1000)).toFixed(2);
+              precio_peso += "€/Kg";
+              precio += "<br><small style=\"color: white; background-color: lightgray; padding: 0.3em;\">" + precio_peso + "</small>";
+            }
             $('#product-price').html(precio);
         }).catch(function () {
           console.log('Request failed');
