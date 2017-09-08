@@ -30,15 +30,16 @@
 
       <script>
         shopClient.fetchProduct({{ producto.shopify-id }}).then(function (p) {
-            var precio = p.selectedVariant.price + "€";
+            /*var precio = p.selectedVariant.price + "€";
             var precio_anterior = p.selectedVariant.compareAtPrice;
             if (precio_anterior) {
               precio += " <del>" + precio_anterior + "€</del>";
-            }
+            }*/
             if (p.selectedVariant.grams) {
               var precio_peso = parseFloat((p.selectedVariant.price) / (parseFloat(p.selectedVariant.grams) / 1000)).toFixed(2);
               precio_peso += "€/Kg";
-              precio += "<br><small style=\"color: white; background-color: lightgray; padding: 0.3em;\">" + precio_peso + "</small>";
+              //precio += "<br><small style=\"color: white; background-color: lightgray; padding: 0.3em;\">" + precio_peso + "</small>";
+              var precio = precio_peso;
             }
             $('#{{ producto.shopify-handle }} .product-price').html(precio);
         }).catch(function () {

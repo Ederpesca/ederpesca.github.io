@@ -1,6 +1,6 @@
 ---
 title: "Kokotxas de bacalao"
-resumen:  "Es la parte más codiciada del bacalao. Se trata de un producto muy gelatinoso, fácil de cocinar.<br>
+resumen:  "Es la parte más codiciada del bacalao. Se trata de un producto muy gelatinoso, fácil de cocinar.<br><br>
 Bandeja de 1 kg."
 image:
   path: /images/ederpesca/productos/kokotxas.jpg
