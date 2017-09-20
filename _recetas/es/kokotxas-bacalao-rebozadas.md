@@ -20,6 +20,8 @@ productos_usados:
   - kokotxas-de-bacalao
 ref: kokotxas-bacalao-rebozadas
 lang: es
+seo:
+  name: "Kokotxas de bacalao rebozadas"
 ---
 
 La kokotxa es la parte inferior de la barbilla de la merluza o el bacalao y es uno de los platos tradicionales de la cocina vasca.

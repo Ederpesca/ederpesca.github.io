@@ -21,6 +21,8 @@ productos_usados:
   - kokotxas-de-bacalao
 ref: kokotxas-bacalao-en-salsa
 lang: es
+seo:
+  name: "Kokotxas de bacalao en salsa"
 ---
 
 ## Elaboración de la receta de kokotxas de bacalao en salsa

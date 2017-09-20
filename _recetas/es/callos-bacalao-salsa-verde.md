@@ -23,6 +23,8 @@ productos_usados:
   - callos-de-bacalao
 ref: callos-bacalao-salsa-verde
 lang: es
+seo:
+  name: "Callos de bacalao en salsa verde"
 ---
 
 ## Elaboración

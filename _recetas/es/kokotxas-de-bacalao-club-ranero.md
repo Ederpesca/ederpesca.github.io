@@ -21,6 +21,8 @@ productos_usados:
   - kokotxas-de-bacalao
 ref: kokotxas-de-bacalao-club-ranero
 lang: es
+seo:
+  name: "Kokotxas de bacalao al Club Ranero"
 ---
 
 Retira el tallo y las pepitas de los pimientos choriceros. Ponlos a remojo durante unos 20 minutos en un bol con agua templada. Cuando se reblandezcan, retira la carne y resérvala. Pica las cebollas y los pimientos en juliana fina y ponlos a pochar en una sartén con aceite y una pizca de sal.

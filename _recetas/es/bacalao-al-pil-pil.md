@@ -1,5 +1,5 @@
 ---
-title: Bacalao al pil-pil
+title: "Bacalao al pil-pil"
 image:
   path: /images/ederpesca/recetas/bacalao-pilpil.jpg
 fuente:
@@ -16,6 +16,8 @@ productos_usados:
   - lomo-pil-pil
 ref: bacalao-al-pil-pil
 lang: es
+seo:
+  name: "Bacalao al pil-pil"
 ---
 
 Pon el aceite en una cazuela baja y amplia. Pela los ajos y dóralos. Cuando estén dorados, pásalos a un plato y resérvalos. Limpia la guindilla y trocéala en 4, saltéalas brevemente y retíralas a un plato.

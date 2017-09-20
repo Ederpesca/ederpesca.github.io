@@ -20,6 +20,8 @@ productos_usados:
   - solomillo
 ref: bacalao-vizcaina
 lang: es
+seo:
+  name: "Bacalao a la vizcaina"
 ---
 
 El bacalao es uno de los alimentos más característicos de la cocina vizcaína. Las tres formas más habituales de prepararlo es a la vizcaína, al pil-pil y al Club Ranero.

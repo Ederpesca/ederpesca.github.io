@@ -1,5 +1,5 @@
 ---
-title: Bacalao asado con vinagreta de guindillas
+title: "Bacalao asado con vinagreta de guindillas"
 image:
   path: /images/ederpesca/recetas/bacalao-asado-con-vinagreta-de-guindillas.jpg
 fuente:
@@ -23,6 +23,8 @@ productos_usados:
   - lomo-gran-chef
 ref: bacalao-asado-con-vinagreta-de-guindillas
 lang: es
+seo:
+  name: "Bacalao asado con vinagreta de guindillas"
 ---
 
 

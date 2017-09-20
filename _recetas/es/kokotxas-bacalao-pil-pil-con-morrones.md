@@ -21,6 +21,8 @@ productos_usados:
   - kokotxas-de-bacalao
 ref: kokotxas-bacalao-pil-pil-con-morrones
 lang: es
+seo:
+  name: "Kokotxas de bacalao al pil-pil con morrones"
 ---
 
 Karlos Arguiñano nos deleita con una receta de cocochas de bacalao al pil-pil con pimientos morrones. Se trata de una receta más que apetecible que necesita pocos ingredientes para su elaboración.
