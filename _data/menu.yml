@@ -36,7 +36,7 @@ es:
     url: "/tienda/"
   nutricion:
     name: "Nutrición"
-    url: "/nutricion"
+    url: "/nutricion/"
   recetas:
     name: "Recetas"
     url: "/recetas/"
