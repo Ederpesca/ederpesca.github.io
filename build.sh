@@ -13,7 +13,7 @@ set -e
 bundle exec jekyll build
 
 # accept server key
-ssh -oStrictHostKeyChecking=no ederpesca.com "uptime"
+ssh -oStrictHostKeyChecking=no ${username}@ederpesca.com "uptime"
 
 # copy generated HTML site to `master' branch
 export RSYNC_PASSWORD=${password}
