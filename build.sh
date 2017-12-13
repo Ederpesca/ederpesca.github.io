@@ -12,8 +12,10 @@ set -e
 # build site with jekyll, by default to `_site' folder
 bundle exec jekyll build
 
+apt-get install sshpass
+
 # accept server key
-ssh -oStrictHostKeyChecking=no ${username}@ederpesca.com "uptime"
+sshpass -p ${password} ssh -oStrictHostKeyChecking=no ${username}@ederpesca.com "uptime"
 
 # copy generated HTML site to `master' branch
 export RSYNC_PASSWORD=${password}
