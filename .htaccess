@@ -1,0 +1,16 @@
+AddCharset UTF-8 .html
+Options +MultiViews
+
+###INI HTDINA###
+
+###INICIO REWRITE RULES###
+RewriteEngine on
+
+######INICIO NAVEGACION HTTPS######
+RewriteCond %{HTTPS} !=on [NC]
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+######FIN DE NAVEGACION HTTPS######
+
+###FIN DE REWRITE RULES###
+
+###FIN HTDINA###
