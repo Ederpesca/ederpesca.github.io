@@ -12,8 +12,6 @@ set -e
 # build site with jekyll, by default to `_site' folder
 bundle exec jekyll build
 
-apt-get install sshpass
-
 # accept server key
 sshpass -p ${password} ssh -oStrictHostKeyChecking=no ${username}@ederpesca.com "uptime"
 
