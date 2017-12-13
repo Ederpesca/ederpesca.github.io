@@ -12,6 +12,9 @@ set -e
 # build site with jekyll, by default to `_site' folder
 bundle exec jekyll build
 
+# accept server key
+ssh -oStrictHostKeyChecking=no ederpesca.com "uptime"
+
 # copy generated HTML site to `master' branch
 export RSYNC_PASSWORD=${password}
 rsync -avz --delete _site/ ${username}@ederpesca.com:www/
