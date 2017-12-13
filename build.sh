@@ -13,8 +13,10 @@ set -e
 bundle exec jekyll build
 
 # accept server key
-sshpass -p ${password} ssh -oStrictHostKeyChecking=no ${username}@ederpesca.com "uptime"
+#sshpass -p ${password} ssh -oStrictHostKeyChecking=no ${username}@ederpesca.com "uptime"
 
 # copy generated HTML site to `master' branch
-export RSYNC_PASSWORD=${password}
-rsync -avz --delete _site/ ${username}@ederpesca.com:www/
+#export RSYNC_PASSWORD=${password}
+#rsync -avz --delete _site/ ${username}@ederpesca.com:www/
+
+ rsync -avz --delete --rsh="sshpass -p ${password} ssh -o StrictHostKeyChecking=no -l ${username}" _site/ ederpesca.com:www/
