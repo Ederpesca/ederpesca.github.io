@@ -19,4 +19,4 @@ bundle exec jekyll build
 #export RSYNC_PASSWORD=${password}
 #rsync -avz --delete _site/ ${username}@ederpesca.com:www/
 
- rsync -avz --delete --rsh="sshpass -p ${password} ssh -o StrictHostKeyChecking=no -l ${username}" _site/ ederpesca.com:www/
+ rsync -avz --delete --exclude .well-known --rsh="sshpass -p ${password} ssh -o StrictHostKeyChecking=no -l ${username}" _site/ ederpesca.com:www/
