@@ -5,6 +5,10 @@ branches:
   - master
 rvm:
 - 2.4.0
+addons:
+    apt:
+        packages:
+            - sshpass
 env:
   global:
     secure: o08oBXwEbXrgcUXKH3gcP9sIVvKDhf7BD7ixdzR33fjnsrzUobP55xqfZz4/msxpNqZTIBrkWflFKveVt9Gd+frJMm730HvUO8BNPkBZ63F9zn+M21QUbA7YGQpzGcf8RtGNAugPT3xypvFgUCuriy0DVgH7iHBuF4LDVW05PeTssVNZrOTtkHlKY5g1ZFd86cEMDw6v6sRmCLmJ5TptX3gK7K+/ddNLTheIH2+xlq4R+8EfjnHxvsypUlNnvL5x+0VjJcsrzeeKw8kfWcvCGu2YZOannltpsCPLPw7uHOtnUoe1cdowKqIEaxJIDfEx0m0t32yUwowislpG683Q4z0XWMSsWqWhjAqGfgmwItoEo2bOsDoA2jC8mjLyaTECB5zNvHvbh0kjd44lRvYS0iCheeXAbUKfVsx2prSb5qTobERZ00wLlxR0yiUIiR0RKD967wxahUbd6TE1dvzGUS2acRTgWaL4QGjKTFJJUIN8t2/A44gPr6qsNEjViuKQ7spK+bbPi7t4YycAINy5/t8CrAxXqaU/D1CAf/Us8FuuMHqeKweVIDjObGElch71jeJFxQ0mCopZBViPiV8ZKlRpKhE8/agt1xe6waOUb4PKg8CAdQUBU2GSw4f5nhalzZ63FS8l6tZxKnm9pvHwoBjTnzLHpA762On+eVO07Us=
