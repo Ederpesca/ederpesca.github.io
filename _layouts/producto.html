@@ -55,6 +55,7 @@ layout: default
               data-next_page_button_text="Next page"
               style="width: 12em; min-width: 6em;"></div>
           <div class="clear"></div>
+          <div id="product-component-{{ page.shopify-id }}" data-component="buyButton" data-shopify-id={{ page.shopify-id }}></div>
           <div class="line"></div>
 
           <p>{{ page.texto }}</p>
@@ -79,7 +80,7 @@ layout: default
     </div>
 
       <script type="text/javascript">
-        document.getElementById('ShopifyEmbedScript') || document.write('<script type="text/javascript" src="https://widgets.shopifyapps.com/assets/widgets/embed/client.js" id="ShopifyEmbedScript"><\/script>');
+        //document.getElementById('ShopifyEmbedScript') || document.write('<script type="text/javascript" src="https://widgets.shopifyapps.com/assets/widgets/embed/client.js" id="ShopifyEmbedScript"><\/script>');
       </script>
 
       <script>
@@ -100,6 +101,5 @@ layout: default
           console.log('Request failed');
         });
       </script>
-
   </div>
 </div>
